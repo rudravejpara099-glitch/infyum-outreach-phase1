@@ -7,7 +7,7 @@
 3. **Claim the account** and read today's count (`references/sheet.md`). In use by someone else: say exactly "This account is currently in use by someone else." and stop.
 4. **Follow-ups due** (`references/followups.md`): do them now, without being asked.
 5. **Warmed-up prospects whose first message was not sent** (stage Engaged): finish them (`references/first-dm.md`).
-6. **New prospects.** Ask once: "How many new profiles today?" (never more than `dms_left`). A returning user is offered the recap from the latest `interview:` note ("Same as last time: ...? Say yes, or tell me what to change"); a new user runs `references/setup.md`.
+6. **New prospects.** A new user runs `references/setup.md` and has already answered interview question 9, so do not ask the number again. A returning user is offered the recap from the latest `interview:` note ("Same as last time: ...? Say yes, or tell me what to change") and asked once: "How many new profiles today?" (never more than `dms_left`).
 
 Then run the loop below until the number is reached, you are stopped, or you are signed out.
 

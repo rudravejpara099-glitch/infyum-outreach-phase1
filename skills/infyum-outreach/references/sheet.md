@@ -29,18 +29,18 @@ One Google Sheet is the only store. The INFYUM team shares **INFYUM Outreach Dat
 - `account`: the Instagram username that sent the first message (lowercase, no @). `angle`: the funnel gap you chose. `offer`: loom, funnel concept or automations. `flags`: for example `location unconfirmed, assumed US` or `limited data visible`.
 - `followup1_at`, `followup2_at`: UTC time each follow-up was sent. `followup1_text`, `followup2_text`: the full text.
 - `replied`, `reply_note`: **filled by people only. You never write them.** `claimed_at`, `updated_at`, `dm_sent_at`: UTC.
-- Fill `profile_url` as `https://www.instagram.com/<username>/`.
+- Fill `profile_url` as `https://www.instagram.com/<username>/`. `member` is the person's first name, exactly as on their Team row.
 
 ## Other tabs
 
-- **`Activity Log`:** `date, time, member, username, action, result, detail`. `date` and `time` are the person's **local** date (`yyyy-mm-dd`) and time. Actions: found, qualified, skipped, follow, like (story likes and reactions too), comment, dm (one line per first message, all messages together), followup, warning, pause, resume, note. Results: confirmed, unconfirmed, failed, skipped. **Never log a failure under follow, like, comment, dm or followup:** use `note` with result `failed`. Row 2 is a permanent starter line ("Log started..."): never edit or remove it.
+- **`Activity Log`:** `date, time, member, username, action, result, detail`. `date` and `time` are the person's **local** date (`yyyy-mm-dd`) and time. Actions: found, qualified, skipped, follow, like (story likes and reactions too), comment, dm (one line per first message, all messages together), followup, warning, pause, resume, note. Results: confirmed, unconfirmed, failed, skipped. **Never log a failure under follow, like, comment, dm or followup:** use `note` with result `failed`. Row 2 is a permanent starter line ("Log started..."): never edit or remove it. Sheets may turn `date` and `time` into real dates and times; the Team counts work either way, so leave them.
 - **`Rejected`:** `username, reason, date, source`. The duplicate check looks here as well as in `All Leads`.
 - **`Team`:** `member, ig_username, status, start_date, time_zone, utc_offset_hours, local_date, day_number, follows_limit, likes_limit, comments_limit, dms_limit, follows_used, likes_used, comments_used, dms_used, follows_left, likes_left, comments_left, dms_left, in_use, last_seen, followups_used`. Input cells: `member` to `utc_offset_hours`, `in_use`, `last_seen`. Everything else is a formula. One row per person per account; all rows for the same `ig_username` carry the same time zone. `status` must be `active` before you act.
 - **`Settings`** (hidden): see "Settings" below.
 
 ## Writing safely
 
-1. **Find your row by username, never by a remembered row number.** Change single cells; never clear, sort, rewrite or insert into a range; never delete rows. Never write a formula column or another person's tab or Team row.
+1. **Find your row by username, never by a remembered row number.** On an existing row, change single cells only. A new row is written once, whole, into the first empty row (rule 3) and is never rewritten afterwards. Never clear, sort or insert into a range; never delete rows. Never write a formula column or another person's tab or Team row.
 2. The tool reads what you write the way Google Sheets does: **text that starts with `=`, `+`, `-` or `@`, or looks like a number or a date, turns into a formula, number or date.** Put a single apostrophe in front of such text (`'+1`), and always for `username`, `dm_text`, `followup1_text`, `followup2_text`, `notes`, `reply_note`, `detail`, and every UTC date or time cell.
 3. **Adding rows.** `Activity Log` and `Rejected`: use the append call. `Leads_<Name>`: read column `username` to find the first empty row and write the row there with an update; never use append and never insert rows on a Leads tab, because inserting shifts the formulas and `All Leads` and the `Team` counts go blank. After writing, spot-check that your row appears in `All Leads`.
 4. **Log before you act** for what must never repeat: comments, first messages and follow-ups (hard rule 2). Follows and likes you log right after they are confirmed, several at once is fine.
@@ -67,7 +67,7 @@ One person at a time per Instagram account. Each person's own Team row has `in_u
 
 ## Settings (hidden tab)
 
-Cells `A1:B1` header `setting, value`. The key rows (keep these exact names; the formulas read `B8`):
+Rows 1 to 6 stay empty (the old day-based ramp table is gone). The formulas read `B8` by position, so never insert or delete rows here. Row 7 is the header `setting, value`. The key rows (keep these exact names):
 
 | Row | setting | value |
 |---|---|---|
@@ -94,14 +94,14 @@ Narrowing (a tighter follower range, extra skips) is kept in the `interview:` no
 
 A client gets a Sheet **exactly like the team Sheet**, in their own Drive. Build it with the Sheets tools, in this order:
 
-1. Create a spreadsheet titled `<Company or first name> Outreach Database`.
+1. Create a spreadsheet titled `<Company or first name> Outreach Database`, then set its time zone to UTC (`Etc/UTC`): the formulas use `NOW()` and the Today tab says UTC. If creating it fails (for example the Drive storage quota is exceeded), follow `references/setup.md` 1.4: one plain line on what failed, then wait.
 2. Create the tabs in the order of the table above. Hide `Settings` and `Leads_Template`. Set generous grids: lead tabs and `All Leads` 10,000 rows, `Activity Log` 50,000, `Rejected` 20,000.
 3. Write the header rows and formulas from "Formulas" below. Put the stage dropdown (Found, Qualified, Engaged, DM sent, Skipped, strict) on column G of `Leads_Template`.
 4. Write `Settings` from the table above with the client's interview answers (no `work_sample` rows unless they gave links).
-5. Create `Leads_<FirstName>` as a copy of `Leads_Template`; add it to the `All Leads` formula; add the Team row (the input cells only).
+5. Create `Leads_<FirstName>` as a copy of `Leads_Template` and add it to the `All Leads` formula. Do not add the Team row yet: it is added at the Instagram step (`references/setup.md` 1.5), when the username is known (input cells only).
 6. `Activity Log`: header plus the permanent starter line in row 2.
 7. `Start here`: the text in "Start here text" below.
-8. **Verify:** read back `Team` (`local_date`, `day_number`, `dms_limit` show values, no errors), `All Leads` (header present, no error), and tell the user "Your Sheet is ready" with its link. Never leave setup half done; if something did not take, say so in one line and fix it before finding anyone.
+8. **Verify:** read back `Team` once its row exists (`local_date`, `day_number`, `dms_limit` show values, no errors), `All Leads` (header present, no error), and tell the user "Your Sheet is ready" with its link. Never leave setup half done; if something did not take, say so in one line and fix it before finding anyone.
 
 ## Formulas
 

@@ -24,7 +24,7 @@ A question with no sensible default still gets a ➡️ line, for example "➡�
 
 ## The 9 questions (one round, everyone gets all nine)
 
-1. **First name.** "What's your first name? It signs the messages." ➡️ No default: just type it.
+1. **First name and time zone.** "What's your first name (it signs the messages), and your time zone?" ➡️ No default: just type them.
 2. **Who to reach.** "Who exactly do you want to reach?" ➡️ Coaches and consultants who sell programs online.
 3. **Size and activity.** "What size and activity? Followers, and how recently they post." ➡️ 2,000 to 70,000 followers, best 10,000 to 30,000 first, 2 or more posts in the last 14 days. (The market is always the US; do not ask about countries.)
 4. **The problem.** "What problem do you fix for them, and what on a profile shows they have it?" ➡️ No default: just type it. (For example: no booking page or funnel, a bare Linktree, "DM me" in the bio.)
@@ -51,6 +51,7 @@ After the "yes", append **one** `note` line to the Activity Log whose `detail` s
 
 ## What the answers drive
 
+- Q1 gives the Team row's `member`, `time_zone` and `utc_offset_hours` (work out the offset from the time zone; ask only if you cannot).
 - Q2 and Q4 become your search phrases (`references/find.md`) and the niche and problem checks (`references/qualify.md`).
 - Q3 sets the follower range, the order (best band first) and the activity check.
 - Q5 and Q6 fill the company line and the link in the DM and the signature (`references/first-dm.md`).

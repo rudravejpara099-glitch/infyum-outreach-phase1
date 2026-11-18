@@ -47,7 +47,7 @@ Write the choice in `offer`. Do not offer all three in one DM.
 ## Step 3: write it
 
 - **Format: 2 to 4 separate messages, never one big block.** Claude decides the count per person. About **50 to 90 words in total**, each message 1 to 2 sentences, easy to read on a phone. A fixed count is itself a pattern.
-- **Sign with the user's first name inside the last message**, not as its own bubble. Vary the form ("Sunil, INFYUM", "Sunil | INFYUM", or just the name).
+- **Sign with the user's first name inside the last message**, not as its own bubble. Vary the form ("Alex, Company", "Alex | Company", or just the name).
 - No template and no repeated pattern: change the structure, the opening, the length, the sign-off, the emoji use and the way you describe the offer from one DM to the next. One can open with a direct observation, another with one line and a question, another with a short insight and no question. Some are playful, some serious, depending on the person.
 - **Match their voice** (blunt, warm, faith-based, playful, professional). Use the one specific detail. Say what you noticed in plain words, then ask one easy question about their business or offer to show something. Describe what would change for them, not how the funnel works.
 - **Emojis are totally random:** none, one, several, no pattern.
@@ -65,7 +65,7 @@ Write the choice in `offer`. Do not offer all three in one DM.
 
 1. **The test:** read it once as the prospect. Does it make sense, and would a real person who looked at this account send it? If not, rewrite it. The user is not asked.
 2. **Variety check:** read the `dm_text` of the **last 10 first messages sent** (newest rows with `dm_sent_at`, any member) and the other drafts in this batch. If the first 6 words match one of them, or about half of its 3-word phrases overlap one, or more than two of the ten share a shape (opener, intro line, closing question), rewrite from scratch.
-3. **Check the chat.** Open the conversation. If our name, company or link is already in it, or the person has written to us, **do not send**: set the lead Skipped with `skip_reason` = already contacted and tell the user. (An emoji reaction to their story is not a message for this check.)
+3. **Check the chat.** Open the conversation. If our name, company or link is already in it, or the person has written to us, **do not send**: set the lead Skipped with `skip_reason` = already contacted and tell the user. (An emoji reaction to their story is not a message for this check.) Close the conversation afterwards without typing anything or pressing Enter.
 4. Run the duplicate look-up again (`references/find.md`, step 4).
 5. Check `dms_left` for the account (`references/sheet.md`). At 0, stop.
 

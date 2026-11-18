@@ -37,3 +37,13 @@ One supervised run on a **spare Instagram account** with **3 profiles**, watched
 
 ## Result
 Date, account, who watched, what failed, and what was changed because of it.
+
+## Rehearsal 1 (2026-11-18): view-only, client route, web-search fallback
+
+A fresh Claude session followed the kit as a new user. Nothing was followed, liked, commented on or sent. 26 candidates were checked, 2 qualified, 2 first messages and 1 follow-up were drafted and not sent.
+
+**Passed:** Sheet built (after the Drive-full failure) with no formula errors; `dms_used`, `dms_left` and `followups_used` count correctly, including the local-midnight edge (tested with fake dates, then restored); username read from the address bar; account lock claimed and released; web-search fallback worked and logged `source` = web.
+
+**Fixed afterwards:** no instruction for a failed Sheet create; the time zone was never asked; the Sheet's own time zone was never set to UTC; the Team row was added before the username was known; check 11 assumed a search box that was not there; hidden like counts made strict engagement skip good prospects; a missing Message button was skipped on page text alone; "Not shared" in About was not covered; no rule for where Chrome-checked skips go; no rule for stopping short; question numbering; a redundant "how many" ask.
+
+**Still NOT tested (do these in the real run):** the Apify path; the team route; a second person refused by the lock; a stale lock; a real warm-up; a real send with the name in the last message and a `dm` log line confirmed; a failed message; `dms_used` after a real send; follow-ups through a real session start (including "replied filled gets none" and "another account's lead is left alone"); follow-up 2; "status" and "stop"; scheduled runs; preflight messages in a cloud session.

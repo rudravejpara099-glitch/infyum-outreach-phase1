@@ -109,3 +109,14 @@ The system does not create or offer a schedule. A user who wants one sets it up 
 - Verification: automatic consistency checks plus one supervised real run on a spare account with 3 profiles; nothing is "done" until that run passes. Decided.
 - Corrupted team Sheet title: renamed to "INFYUM Outreach Database" on 2026-11-18 (title only, nothing else changed). Setup still asks for the pasted link first and falls back to the title.
 - Final read-through of this spec, then build.
+
+## 16. Changes after rehearsal 1 (2026-11-18)
+- Interview question 1 is now "first name and time zone" (the day boundary of the 35 needs it); the route question is called the "first question", so the interview stays 9 questions.
+- A new client Sheet's own time zone is set to UTC (the formulas use `NOW()`); the Team row is added at the Instagram step, when the username is known.
+- If the Sheet cannot be created (for example the Drive is full): one plain line on what failed and what the user can do, then wait. No retry loop, no half-built Sheet, never write into another Sheet.
+- Check 11 (the user's check list): if a list has no search box, never scroll or click inside it; check only the "Followed by" line, write `check list not verified` in `flags`, carry on, and count these in the end report. (Owner decision.)
+- Check 5 (engagement): hidden like counts are not a reason to skip; judge from comments, named likers and how the posts look; skip only when the visible signals are clearly dead. Dates stay strict. (Owner decision.)
+- A missing Message button is confirmed on screen before skipping; "Not shared" in About is judged at once; the About dialog is read from a screenshot.
+- Where a skip goes: cheap-filter drops go to `Rejected` (no claim row); everything skipped after the claim row (web candidates, Chrome rejections) stays in the Leads tab as Skipped.
+- Stopping short: after two full rounds of search phrases without reaching the number, stop and report the counts and suggest widening; never loosen a check.
+- Not tested yet: see the "Rehearsal 1" section of `docs/REAL-RUN-CHECKLIST.md`.

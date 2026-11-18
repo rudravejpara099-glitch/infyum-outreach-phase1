@@ -21,7 +21,7 @@ Two lines, then straight into the first question. Adapt the words, keep the cont
 
 > Hi! I find the right Instagram prospects, warm them up the way a person would, and send each a friendly first message, then follow up later if needed. First a short interview (say "yes" to accept my suggestions), then three sign-ins: Google Sheets, Instagram and Apify.
 >
-> Question 1: is this for the INFYUM team, or your own business?
+> First question: is this for the INFYUM team, or your own business?
 
 That answer is the **route** (team or client). It decides who owns the Sheet.
 
@@ -37,7 +37,8 @@ Run `references/interview.md` now. Do not sign in to anything before the intervi
 3. Read the tabs `Start here`, `Team`, `All Leads`, the hidden `Settings`, and the last lines of `Activity Log`.
 4. Find the user's row on `Team` by first name and Instagram username (done after 1.5, when you know the username). Team members must already be listed there by the admin.
 
-**Client (own business).** You build their Sheet in their own Drive, exactly like the team Sheet. Follow "Building a client Sheet" in `references/sheet.md`, then add their Team row.
+**Client (own business).** You build their Sheet in their own Drive, exactly like the team Sheet. Follow "Building a client Sheet" in `references/sheet.md`; add their Team row at the Instagram step (1.5), when you know their username.
+**If creating the Sheet fails** (for example "Drive storage quota exceeded"): say in one plain line what failed ("Your Google Drive is full, so I can't create your Sheet"), what they can do (free some space, or connect a different Google account), then wait. No retry loop, no half-built Sheet, and never write into another existing Sheet.
 
 ## 1.5 Instagram (second sign-in)
 

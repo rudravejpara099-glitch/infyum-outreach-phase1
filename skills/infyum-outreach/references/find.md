@@ -16,7 +16,7 @@ When Apify is not connected, fails, or is out of credit, tell the user once in o
 
 ## How many, and when to find more
 
-The day's number is the user's answer 9, and never more than the account's `dms_left`. **Search again whenever fewer than 5 candidates are waiting** (stage Found or Qualified and not yet worked) until enough first messages are sent. Never relax a rule to reach the number: when you run short of good candidates, find more.
+The day's number is the user's answer 9, and never more than the account's `dms_left`. **Search again whenever fewer than 5 candidates are waiting** (stage Found or Qualified and not yet worked) until enough first messages are sent. Never relax a rule to reach the number: when you run short of good candidates, find more. If **two full rounds** of your search phrases still leave you short, stop and report instead: how many you checked, how many passed, the skip reasons by count, and a suggestion to widen the range or the niche (that is the user's call).
 
 ## The cheap filter, before Chrome
 
@@ -28,7 +28,9 @@ Apify returns enough to drop obvious misses without opening Chrome. Drop, with a
 
 An **unknown follower count is kept** and checked on the real profile. Web results have no bio: skip rules 2 to 4 for them.
 
-**Every dropped candidate is added to the `Rejected` tab** (append): `username, reason, date, source`. This is how nobody searches for, or pays for, the same account twice. Do not put dropped candidates in your own Leads tab.
+**Every candidate dropped by this filter is added to the `Rejected` tab** (append): `username, reason, date, source`. This is how nobody searches for, or pays for, the same account twice. These candidates never get a row in your Leads tab.
+
+Anything skipped **after** your claim row exists (every web-search candidate, and every candidate you rejected in Chrome) stays in your own Leads tab as Skipped with its `skip_reason`. Nothing is moved or deleted.
 
 ## The duplicate check (before you touch anyone)
 

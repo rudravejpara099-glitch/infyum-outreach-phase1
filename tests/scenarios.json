@@ -23,5 +23,15 @@
   { "id": "scheduled-no-catch-up", "file": "skills/infyum-outreach/references/session.md", "mustContain": "no catch-up" },
   { "id": "exact-username-match", "file": "skills/infyum-outreach/references/qualify.md", "mustContain": "exact usernames only" },
   { "id": "apify-fallback", "file": "skills/infyum-outreach/references/find.md", "mustContain": "web search" },
-  { "id": "rejected-tab", "file": "skills/infyum-outreach/references/find.md", "mustContain": "added to the `Rejected` tab" }
+  { "id": "rejected-tab", "file": "skills/infyum-outreach/references/find.md", "mustContain": "added to the `Rejected` tab" },
+  { "id": "no-list-clicks", "file": "skills/infyum-outreach/references/qualify.md", "mustContain": "never scroll or click inside it" },
+  { "id": "check-list-flag", "file": "skills/infyum-outreach/references/qualify.md", "mustContain": "check list not verified" },
+  { "id": "hidden-likes-not-a-skip", "file": "skills/infyum-outreach/references/qualify.md", "mustContain": "that is **not** a reason to skip" },
+  { "id": "message-button-visual", "file": "skills/infyum-outreach/references/qualify.md", "mustContain": "Confirm a missing Message button on the screen" },
+  { "id": "about-from-screenshot", "file": "skills/infyum-outreach/references/qualify.md", "mustContain": "read it from a screenshot" },
+  { "id": "drive-full-message", "file": "skills/infyum-outreach/references/setup.md", "mustContain": "Your Google Drive is full, so I can't create your Sheet" },
+  { "id": "sheet-time-zone-utc", "file": "skills/infyum-outreach/references/sheet.md", "mustContain": "`Etc/UTC`" },
+  { "id": "time-zone-asked", "file": "skills/infyum-outreach/references/interview.md", "mustContain": "and your time zone?" },
+  { "id": "stop-short-and-report", "file": "skills/infyum-outreach/references/find.md", "mustContain": "If **two full rounds** of your search phrases still leave you short" },
+  { "id": "close-chat-without-typing", "file": "skills/infyum-outreach/references/first-dm.md", "mustContain": "Close the conversation afterwards without typing anything" }
 ]
