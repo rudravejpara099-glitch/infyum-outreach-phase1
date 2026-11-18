@@ -62,11 +62,12 @@ const forbidden = [
   ["pause and stop", "an Instagram warning must not stop a run (log, skip, carry on)"],
   ["English-speaking", "the market is US only"],
   ["UK, Canada", "the market is US only"],
-  ["exactly three messages", "the first DM is 2 to 4 separate messages"],
+  ["2 to 4 separate", "the first DM is one message built only from the DM Agent Guidelines document"],
+  ["funnel concept", "the DM offers only the two offers in the document (Loom audit or free idea)"],
   ["Sign off with his name", "the sender is the user, not a fixed person"],
   ["dms_hard_ceiling_per_day` | 60", "the ceiling is 35"],
   ["START.md", "there is no START.md; the entry is SKILL.md"],
-  ["free_sample_offer` | on", "the free sample offer is replaced by the three offers"],
+  ["free_sample_offer` | on", "the free sample offer is not used"],
 ];
 for (const [text, why] of forbidden) for (const [f, body] of all) ok(!body.includes(text), `${f} contains "${text}": ${why}`);
 
@@ -77,8 +78,8 @@ ok(/followups_per_account_per_day` \| 35 \|/.test(sheet), "sheet.md Settings mus
 ok(sheet.includes("less than 20 minutes ago"), "sheet.md lock must expire after 20 minutes");
 ok(sheet.includes("A scheduled run that finds the account in use"), "sheet.md must cover a scheduled run finding the account in use");
 ok(rules.includes("35 first messages per Instagram account per day"), "rules.md must state the 35 cap");
-ok(followups.includes("**3 or more days ago**") && followups.includes("**4 or more days ago**"), "followups.md must use 3 days then 4 days");
-ok(followups.includes("At most **2**"), "followups.md must cap follow-ups at 2");
+ok(followups.includes("**3 or more days ago**"), "followups.md must send the follow-up 3 or more days after the first DM");
+ok(followups.includes("There is **one** per person") || followups.includes("**one** per person"), "followups.md must allow exactly one follow-up");
 for (const [f, body] of all) {
   for (const m of body.matchAll(/(\d+) (?:first messages?|DMs?) (?:per|a|each) (?:Instagram )?(?:account )?(?:per )?day/gi)) {
     ok(m[1] === "35", `${f} states a daily number other than 35: "${m[0]}"`);

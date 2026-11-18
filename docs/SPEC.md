@@ -53,26 +53,16 @@ Google Sheets, then Instagram, then Apify.
 - Pace: totally Claude's own human judgment, including breaks. No fixed numbers, no floor. Hours: 24/7.
 - Result: stage Engaged, warmup_status done / in_progress / partial.
 
-## 6. First DM (Loom-style, from the DM Agent Guidelines PDF)
-- Analyze: name line and bio, link-in-bio page (read only), recent posts, size and location signals. Find the one real gap and one specific recent detail.
-- Angle: pick what is actually weak (the PDF's eight angles). Do not default to follow-up automation.
-- Format: 2 to 4 separate messages (never one big block), about 50 to 90 words in total, each 1 to 2 sentences, phone-style, signed with the user's first name and company inside the last message (not its own bubble).
-- Offers (one per DM, chosen by need, built in for everyone): free 2-minute Loom audit (visible funnel or page with a gap); free funnel concept (no path between offers); automation showcase of 2 or 3 automations (funnel already works). Offered softly as a question.
-- Special case: prospects who teach marketing or sales get a humble question or a partnership angle, never a funnel pitch.
-- Links: only when it helps, at most one, only from the owner's `work_samples` list matched to the prospect's niche (Sales Funnel, Credit Repair, Tax, Coach, Ebook/Digital Product, Health Wellness and Beauty, Webinar, Website Portfolio; generic fallback Sales Funnel; Website Portfolio when the gap is their website or link-in-bio page). Follow-ups may use a link the same way.
-- Never: any other link, invented results/numbers/case studies, guessed names, INFYUM jargon, stock lines ("I came across your profile"), guilt or pressure, jokes on sad topics, speaking badly of anyone.
-- Checks before sending: silent "would a real person who looked at this account send it?"; variety against the last 10 first DMs (judged shape, plus mechanical: same first 6 words, or half the 3-word phrases overlapping, means rewrite); open the chat (if our name/company/link is there or they wrote to us, skip as already contacted); look up the username once more.
-- Send: write the full text to `dm_text` and log `dm` as `unconfirmed` before sending; short human pause after the warm-up (Claude's choice, never hours); type like a person, send each message separately, confirm each appears. If one fails: stop, never resend, log `failed`, tell the user exactly what was and was not sent.
-- Then: stage DM sent, dm_sent_at. Record `angle`, `offer`, `flags` (e.g. "location unconfirmed, assumed US", "limited data visible") in the lead row.
+## 6. First DM (only from the DM Agent Guidelines document)
+Source: "INFYUM Instagram DM Agent Guidelines (with reference DMs)", Nov 14, 2026, by Sunil. The kit's `references/first-dm.md` holds only what that document says: role and goal (a reply, not a sale); the company and how not to describe it; sender sign-off varied ("Name, Company", "Name | Company", "Name"); offer = free 2-minute Loom audit or a free idea, offered softly as a question; casual, friendly tone; US-based coaches and consultants only (assume US unless clearly shown otherwise, flag "location unconfirmed, assumed US"); SKIP with a one-line reason for non-US, not a coach or consultant business, or winding down; analyze bio, link-in-bio page, recent posts, size and location, then the one real gap and one specific recent detail; choose the angle from the eight listed, never default to follow-up; write about 50 to 90 words with no template, matching their voice; the special case for prospects who teach marketing or sales; honesty rules (no invented results, only what was seen, flag thin data); output parts Profile, Why this angle, First DM, Follow-up, Flags. The real reference examples in the document are not copied into the repository (real people).
+- Mechanics added by the kit, not by the document: variety and chat checks, log before send, one message typed with Shift+Enter for paragraph breaks, `dm_text`/`angle`/`offer`/`flags` in the Sheet.
 
 ## 7. Cap
 35 first DMs per Instagram account per day. Counted when the DM is sent; skipped and failed profiles are free. The day resets at midnight in the account's time zone (stored on the account's row). The count is shared by everyone using that account.
 
-## 8. Follow-ups
-- Triggered when a user opens the next session (or any run). A follow-up is due when the first DM was sent 3 or more days ago and `replied` is empty; the second one 4 days after the first; maximum 2.
-- Detection uses only the `replied` column that humans fill in. Claude does not open the chat to look for replies and never answers a reply.
-- Each follow-up must add something new (a fresh idea or angle), never "just following up", no link, shorter and lower-pressure, different offer line, separate messages, signed in the last message.
-- Own limit: 35 per account per day, separate from first DMs.
+## 8. Follow-up (from the same document, Step 4)
+- One follow-up per person, 3 to 4 days after the first DM, only if there is no reply and only when it adds something new (a fresh idea or angle, never a plain "just following up"). Shorter and lower-pressure than the first DM, varied from person to person, not always ending in the same Loom line.
+- It is drafted with the first DM and kept in `notes` as `followup draft:`. A follow-up is due when `dm_sent_at` is 3 or more days ago, `replied` is empty and a draft exists. Claude never opens the chat to look for replies and never answers one.
 
 ## 9. Session start
 No questions first: open the Sheet, check sign-in, claim the account (in use? count today?), then follow-ups due, then warmed-up prospects whose DM was not sent, then ask "how many new profiles today?".

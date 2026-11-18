@@ -17,7 +17,7 @@ The kit is Markdown. Users' Claudes read `skills/infyum-outreach/SKILL.md`, then
 npm run check
 ```
 
-Needs Node 22 or later and no dependencies. It checks that every file exists and is linked, that the numbers agree everywhere (35 a day, 3 and 4 days, 20 minutes, 2 follow-ups), that every hard rule and the exact "in use" message are present, that removed decisions have not come back, that the Sheet column list is intact, and that the scenarios in `tests/scenarios.json` still find their required wording. **These checks are structural.** They cannot tell whether Claude behaves well when it follows the kit; only a supervised real run shows that.
+Needs Node 22 or later and no dependencies. It checks that every file exists and is linked, that the numbers agree everywhere (35 a day, 3 days, 20 minutes, 1 follow-up), that every hard rule and the exact "in use" message are present, that removed decisions have not come back, that the Sheet column list is intact, and that the scenarios in `tests/scenarios.json` still find their required wording. **These checks are structural.** They cannot tell whether Claude behaves well when it follows the kit; only a supervised real run shows that.
 
 ## Files
 

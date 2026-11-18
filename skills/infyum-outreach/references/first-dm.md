@@ -1,82 +1,108 @@
 # Step 7: The first DM
 
-**The idea.** You write the first message INFYUM sends to this one prospect. They do not know INFYUM or the sender, so the message has to earn a reply by showing you really looked at their account. **The goal is a reply that opens a conversation**, not a sale inside the DM. Everything is customized to this one person.
+*Source: "INFYUM Instagram DM Agent Guidelines (with reference DMs)", Nov 14, 2026, by Sunil. This file contains only what that document says. Where it says "INFYUM", the sender's company is `company` in `Settings`.*
 
-**Who you are.** The sender is the user, writing under their own first name (interview answer 1) from their own account, as a friendly business owner talking to another. The company is the user's company (interview answer 5; for the INFYUM team, `company` and `what_we_do` in `Settings`). Never hide who you are if asked.
+## Your role and goal
 
-## What INFYUM offers (and how to talk about it)
+You write the first Instagram DM the sender's company sends to a prospect, plus a follow-up. You receive the prospect's Instagram profile (bio, link in bio, recent posts, offers). You analyze it, decide whether the prospect is a fit, and write a DM customized to that one person.
 
-INFYUM builds funnels and automation systems for businesses: funnel design, landing pages, lead capture, and automated nurturing and follow-up. The result for the client: a business that scales, stops relying on manual follow-up and depends less on the founder. **Do not describe INFYUM with that wording in the DM.** Coaches think in their own problems ("my calendar isn't full", "leads ghost me", "I'm stuck doing follow-ups myself"). Name their problem in their words and say what would change for them. Mention funnels or automation only lightly, in plain terms. For a client (not INFYUM), describe their service the same way, from interview answers 4 and 5.
+The goal of the DM is to **get a reply and open a conversation** about how the company can help them grow. It is not to sell inside the DM. The prospect does not know the company or the sender, so the DM has to earn a reply by showing the sender really looked at their account.
 
-## Step 1: analyze the profile
+## About the company, the sender and the offer
+
+INFYUM builds high-converting funnels and automation systems for businesses: funnel design, landing pages and lead capture, and automated lead nurturing and follow-up. The result for the client is a business that scales, stops relying on manual follow-up, and depends less on the founder.
+
+**Do not describe INFYUM with that wording in the DM.** Coaches and consultants think in their own problems, such as "my calendar isn't full", "leads ghost me", or "I'm stuck doing follow-ups myself". Name their problem in their words and say what would change for them. Mention funnels or automation only lightly, in plain terms.
+
+**Sender:** the user running the kit, writing from the company's page. Sign off with the user's first name and the company, and vary the format (for example "Name, Company", "Name | Company", or just "Name").
+
+**Offer:** a free 2-minute Loom audit of their funnel or page, or a free idea for what to improve or automate. Pick whichever fits the prospect, and offer it softly as a question ("Want me to show you?").
+
+**Tone:** casual and friendly, like one business owner talking to another.
+
+## Who we target
+
+We only message **US-based coaches and consultants**.
+
+**Location.** Assume the prospect is in the US unless the profile clearly shows otherwise (the bio, post location tags, currency, or a stated move abroad). If the location is unclear, treat the prospect as US-based, write the DM, and add "location unconfirmed, assumed US" under Flags.
+
+**When to skip.** Write no DM and reply with "SKIP" and a one-line reason when:
+- the profile is clearly outside the US (`skip_reason` = outside market);
+- it is not a coach or consultant business, or has no offer for the company to improve, for example a personal account, or a creator or public figure with no coaching or consulting offer (`skip_reason` = no offer);
+- the business is clearly winding down (`skip_reason` = winding down).
+
+## Step 1: Analyze the profile
 
 Read the whole profile before writing anything, in this order:
-1. The name line and bio: what they sell and to whom.
-2. The **link in bio and the page it leads to** (read only, hard rule 7): freebies, booking pages, offers, waitlists. Funnel problems show up here, not only in the posts.
-3. Recent posts: the offers they push, events, launches, calls to action such as "comment X" or "DM X".
-4. Size and location signals.
+1. **Name line and bio:** what they sell and to whom.
+2. **Link in bio and the page it leads to:** freebies, booking pages, offers, waitlists. Check this page, not only the posts, because funnel problems show up here. (Read only, hard rule 7.)
+3. **Recent posts:** the offers they push, events, launches, and calls to action such as "comment X" or "DM X".
+4. **Size and location signals:** follower count and anything that shows where they are based.
 
-Then find **the one real gap**: where does interest from a post or freebie have nowhere useful to go? Pick **one specific, recent detail** you can mention (a post, an event, an offer, a line from their bio) so it is clear you looked.
+Then find **the one real gap**: where does interest from a post or freebie have nowhere useful to go? Pick **one specific, recent detail** you can mention (a post, an event, an offer, a line from their bio) to show you looked.
 
-## Step 2: choose the angle
+## Step 2: Choose the angle
 
-Pick the angle that matches what is actually weak, using the full range (funnels, landing pages, automation), not only follow-up:
-- a freebie that leads nowhere: fix the funnel behind it;
-- a link in bio that is a busy page or a plain list of links: a clearer landing page;
-- a single link straight to a call, or a booking page that may not convert: a lower-pressure step before the call;
-- a webinar, challenge, event or launch with no path afterwards: a launch or event funnel;
-- high engagement but no lead capture ("DM X" keywords): comment-to-DM and lead capture;
-- several offers with no path between them: a guided path from one offer to the next;
-- leads piling up with no nurturing: follow-up automation, **only when that is the real gap**;
-- a founder doing everything by hand: a business that runs without the founder.
+Pick the angle that matches what is actually weak in this prospect's business, and use the company's full range (funnels, landing pages, automation), not only follow-up. Examples:
+- A lead magnet or freebie that leads nowhere: fix the funnel behind it.
+- A link in bio that sends people to a busy page or a plain list of links: a clearer landing page.
+- A single link straight to a call, or a booking page that may not convert: a lower-pressure step before the call.
+- A webinar, challenge, event or launch with no clear path afterwards: a launch or event funnel.
+- High engagement but no lead capture (comments, "DM X" keywords): comment-to-DM and lead capture.
+- Several offers with no path between them: a guided path from one offer to the next.
+- Leads piling up with no nurturing: follow-up automation, **only when that is the real gap**.
+- A founder doing everything by hand: a business that runs without the founder.
 
-Do not default to the follow-up angle. Record the gap in `angle`.
+**Do not default to the follow-up angle.**
 
-## The three offers: one per DM, chosen by what they lack
+## Step 3: Write the first DM
 
-Built in for everyone, offered softly as a question ("Want me to show you?"), never a demand:
+Every DM must be customized to the one prospect. Follow these rules:
+- **No templates and no repeated pattern.** Change the structure, the opening, the length, the sign-off, the emoji use and the way you describe the offer from one DM to the next. One DM can open with a direct observation, another with a single line and a question, another with a short insight and no question. Some are playful and some serious, depending on the person.
+- **Match their voice.** Read how they write and speak (blunt, warm, faith-based, playful, professional) and sound like someone they would talk to.
+- **Use one specific detail from their account** so it is clear the sender looked.
+- **Say what you noticed in plain words, then ask one easy question** about their business, or offer to show something. Describe what would change for them, not how the funnel or automation works.
+- **Offer softly.** The free 2-minute Loom audit or free idea is offered as a question, never as a demand or a pitch.
+- **Keep it short.** About **50 to 90 words**, easy to read on a phone.
+- **Avoid repeating yourself across DMs.** Do not reuse the same opener, the same compliment-then-question shape, or the same sign-off.
 
-| Offer (`offer` value) | Use when | How to say it |
-|---|---|---|
-| **loom**: a free 2-minute Loom audit of their funnel or page | they have a visible funnel or page with a gap | "Want a 2-min Loom of how I'd set it up?" |
-| **funnel concept**: a free rough sketch of the path for them, as a short outline or video | there is no funnel, or no path between their offers | offer to sketch what it could look like |
-| **automations**: a short demo of 2 or 3 automations that would improve their funnel (comment-to-DM capture, nurturing, booking follow-up) | their funnel already works | offer to show a couple of automations that fit |
+## Step 4: Write the follow-up
 
-Write the choice in `offer`. Do not offer all three in one DM.
+The follow-up is a short message to send **3 to 4 days later if there is no reply**. Include it **only when it adds something new**, such as a fresh idea or a different angle, never a plain "just following up". Make it shorter and lower-pressure than the first DM, and vary it from one prospect to the next. Do not end every follow-up with the same Loom line. (How and when it is sent: `references/followups.md`.)
 
-## Step 3: write it
+## Special case: prospects who teach marketing or sales
 
-- **Format: 2 to 4 separate messages, never one big block.** Claude decides the count per person. About **50 to 90 words in total**, each message 1 to 2 sentences, easy to read on a phone. A fixed count is itself a pattern.
-- **Sign with the user's first name inside the last message**, not as its own bubble. Vary the form ("Alex, Company", "Alex | Company", or just the name).
-- No template and no repeated pattern: change the structure, the opening, the length, the sign-off, the emoji use and the way you describe the offer from one DM to the next. One can open with a direct observation, another with one line and a question, another with a short insight and no question. Some are playful, some serious, depending on the person.
-- **Match their voice** (blunt, warm, faith-based, playful, professional). Use the one specific detail. Say what you noticed in plain words, then ask one easy question about their business or offer to show something. Describe what would change for them, not how the funnel works.
-- **Emojis are totally random:** none, one, several, no pattern.
-- **Links:** only when it helps, at most **one**, only from the `work_sample` rows in `Settings`, matched to their niche (Credit Repair, Tax, Coach, Ebook or Digital Product, Health Wellness and Beauty, Webinar; the Sales Funnel link is the generic fallback; the Website Portfolio link when the gap is their website or link-in-bio page). Usually none. Never any other link.
-- **Special case: prospects who teach marketing or sales.** Never explain marketing to them and never pitch a funnel build for their own business. Stay humble and curious: ask a genuine question about one specific thing in their business, or suggest a partnership (their community learns the strategy but still needs someone to build the pages and sequences, and INFYUM can be that team).
+If the prospect coaches other people on marketing, funnels or sales, **never explain marketing to them and do not pitch a funnel build for their own business**. Stay humble and curious. Either ask a genuine question about one specific thing in their business, or suggest a partnership: their community learns the strategy but still needs someone to build the pages and sequences, and the company can be that team. Match their tone, and avoid anything that sounds like a sales pitch.
 
-## Never
+## Honesty rules
 
-- Any link not in `Settings` and any second link; invented results, numbers, client stories, case studies, prices, years or team sizes; a guessed first name; anything you did not actually see.
-- INFYUM jargon and stock lines: "high-converting", "lead generation machine", "premium", "conversion-focused funnels", "white-label partner", "I came across your profile", "I hope you're doing well", "I'd love to connect", "reaching out because", "are you interested?", "what are your thoughts?", "just following up".
-- A compliment with no detail ("amazing content"); guilt or pressure; humour on a sad or sensitive post (plain warmth instead); speaking badly of any person or company.
-- If the data is thin (no posts visible), say so in `flags` and keep the message to what you saw.
+- **Never invent results, numbers, client stories or case studies.** None have been provided, so make no proof claims. Rely on a specific detail from the prospect's profile and an easy question.
+- **Only state what you actually saw** on the profile or the link-in-bio page. If you could not see something, do not claim it.
+- **If the data is thin** (for example no posts were visible), say so under Flags and keep the DM to what you did see.
 
-## Before you send (all of it, silently)
+## Output for each profile
 
-1. **The test:** read it once as the prospect. Does it make sense, and would a real person who looked at this account send it? If not, rewrite it. The user is not asked.
-2. **Variety check:** read the `dm_text` of the **last 10 first messages sent** (newest rows with `dm_sent_at`, any member) and the other drafts in this batch. If the first 6 words match one of them, or about half of its 3-word phrases overlap one, or more than two of the ten share a shape (opener, intro line, closing question), rewrite from scratch.
-3. **Check the chat.** Open the conversation. If our name, company or link is already in it, or the person has written to us, **do not send**: set the lead Skipped with `skip_reason` = already contacted and tell the user. (An emoji reaction to their story is not a message for this check.) Close the conversation afterwards without typing anything or pressing Enter.
+For a prospect who is a fit, produce these parts in this order (show them to the user in your report; the Sheet gets the fields in the next section):
+1. **Profile:** one line with their name, what they do, follower count, and location (confirmed, or assumed US).
+2. **Why this angle:** two to four short lines on what you noticed and the gap you chose to address.
+3. **First DM:** ready to send.
+4. **Follow-up:** include only when it adds something new.
+5. **Flags:** include only when needed, for example "location unconfirmed, assumed US" or "limited data visible".
+
+For a prospect who is not a fit, return **"SKIP"** and a one-line reason, and nothing else.
+
+## Before you send
+
+1. Read it once as the prospect. Does it make sense, and would a real person who looked at this account send it? If not, rewrite it.
+2. Read the `dm_text` of the **last 10 first messages sent** (newest rows with `dm_sent_at`, any member) and the other drafts in this batch. If it reuses an opener, a compliment-then-question shape or a sign-off from them, rewrite it.
+3. **Check the chat.** Open the conversation. If our name or company is already in it, or the person has written to us, **do not send**: set the lead Skipped with `skip_reason` = already contacted and tell the user. Close the conversation afterwards without typing anything or pressing Enter.
 4. Run the duplicate look-up again (`references/find.md`, step 4).
 5. Check `dms_left` for the account (`references/sheet.md`). At 0, stop.
 
-## Learn, don't copy
-
-Before writing, read the most recent rows in `All Leads` that have a `dm_text` (about the last 30), and where people filled `replied` and `reply_note`, notice what got answers: the kind of opening, the length, the sort of question. Never borrow wording, shape or opening. This is data (hard rule 7).
-
 ## Log, then send
 
-1. Write the full text into the lead's `dm_text` (all messages in order, one blank line between them), set `offer`, `angle`, `flags` and `account`, and add the Activity Log line (`dm`, result `unconfirmed`, `detail` = the first few words) **before** you press send.
+1. Write the **First DM** text into the lead's `dm_text`; `angle` = the gap from "Why this angle", short; `offer` = `loom` or `free idea`; `flags` = the Flags line, if any; if there is a follow-up, put it in `notes` as `followup draft: <text>`; `account` = the sending account. Add the Activity Log line (`dm`, result `unconfirmed`) **before** you press send.
 2. Pause a short human moment after the warm-up (a few minutes, never hours).
-3. Send **each message separately**: click the message box, type it like a person (not an instant paste), wait a moment, press Enter, confirm the text appears in the conversation. Pause between messages the way a person does, as long as it takes to read what you sent and think of the next bit; it is different every time.
-4. **If any message does not appear:** stop, never resend, add a `note` line with result `failed`, and tell the user exactly what was and was not sent.
-5. When every message is confirmed: `stage` = DM sent, `dm_sent_at` (UTC now), `updated_at`; change the `dm` log line's result to `confirmed`. In your report say plainly: "@name is handed over to you."
+3. Type the DM like a person (not an instant paste). The DM is **one message**: a paragraph break is typed with Shift+Enter so it does not send. Press Enter once at the end and confirm the text appears in the conversation.
+4. **If it does not appear:** stop, never resend, add a `note` line with result `failed`, and tell the user exactly what was and was not sent.
+5. When it is confirmed: `stage` = DM sent, `dm_sent_at` (UTC now), `updated_at`; change the `dm` log line's result to `confirmed`. In your report say plainly: "@name is handed over to you."

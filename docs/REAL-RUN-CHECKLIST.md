@@ -25,13 +25,13 @@ One supervised run on a **spare Instagram account** with **3 profiles**, watched
 
 ## Warm-up and first message
 - [ ] Warm-up touches a random 2 to 5 posts, not the top of the grid; comments are specific, logged before posting, and visible after.
-- [ ] The first message goes out as 2 to 4 **separate** messages, the user's name inside the last one, with `dm_text`, `angle`, `offer`, `flags`, `account` filled and the `dm` log line confirmed.
-- [ ] It offers exactly one of the three offers; a link appears only if a matching `work_sample` exists and it helps.
+- [ ] The first message goes out as **one** message of about 50 to 90 words, signed with the user's name and company, with `dm_text`, `angle`, `offer`, `flags`, `account` filled and the `dm` log line confirmed.
+- [ ] It offers the free 2-minute Loom audit or a free idea, softly, as a question; it contains no link and no invented result.
 - [ ] If a message is made to fail, Claude stops, does not resend, logs `failed` and says what was sent.
 
 ## Follow-ups, stop and schedule
-- [ ] A lead whose `dm_sent_at` is moved back 3 days gets follow-up 1 when a new session starts; one with `replied` filled gets none; a lead sent from another account is left alone.
-- [ ] Follow-up 2 appears only 4 days after follow-up 1; there is never a third.
+- [ ] A lead whose `dm_sent_at` is moved back 3 days gets the follow-up when a new session starts (only if a `followup draft:` is in `notes`); one with `replied` filled gets none; a lead sent from another account is left alone.
+- [ ] There is never a second follow-up.
 - [ ] "Status" shows counts and used/left of 35. "Stop" halts at once and releases the account.
 - [ ] A scheduled run with the account in use skips and writes a `note`; one with Instagram signed out writes one `note` and ends.
 

@@ -1,6 +1,6 @@
 # INFYUM Instagram Outreach (Phase 1)
 
-**Paste this repo into your Claude. It sets you up in a few minutes, then finds the right prospects on Instagram, warms them up like a real person, sends a friendly first message in a few separate messages, and follows up later if they stay silent. You answer a short interview and sign in to three things; Claude does the rest.**
+**Paste this repo into your Claude. It sets you up in a few minutes, then finds the right prospects on Instagram, warms them up like a real person, sends a friendly, personal first message, and follows up once if they stay silent. You answer a short interview and sign in to three things; Claude does the rest.**
 
 Nothing to install. No files to edit. No account to create with us, and no permission to ask for.
 
@@ -41,7 +41,7 @@ Get it onto this computer (git clone, or read its files as plain text, never a s
 
 | You say | Claude does |
 |---|---|
-| **"Start"** / **"Do 10 profiles"** | Follows up where it is due, then finds prospects, checks each against your rules, warms each one up, and sends a personal first message in separate messages. |
+| **"Start"** / **"Do 10 profiles"** | Follows up where it is due, then finds prospects, checks each against your rules, warms each one up, and sends a personal first message. |
 | **"Find 10 prospects"** | Finds and checks only. No engagement. |
 | **"Status"** | Shows today's counts and how many of the account's 35 are used. |
 | **"Stop"** | Stops immediately and reports what was done. |
@@ -53,8 +53,8 @@ You never approve a comment or a message. Claude writes and sends them itself.
 - **Who it picks:** US-based coaches and consultants with a public account, 2,000 to 70,000 followers (your range), posting recently, selling something online, and with a gap Claude can really see. Never agencies, big brands, competitors, private accounts or anyone connected to the accounts you list.
 - **35 first messages per Instagram account per day,** shared by everyone using that account. One person at a time per account.
 - **Warm-up:** like a person browsing, not a script: a follow, then a few random likes and comments, sometimes a story reaction. Comments are written for that person and that post, never generic.
-- **First message:** written fresh for every person after reading their profile and bio link. 2 to 4 separate short messages, signed with your name in the last one, offering one of three free things: a 2-minute Loom audit, a free funnel concept, or a short demo of automations.
-- **Follow-ups:** up to two, 3 days and then 4 more days after the first message, only if nobody has marked the person as replied in the Sheet.
+- **First message:** written fresh for every person after reading their profile and bio link. one short DM (about 50 to 90 words) with one specific detail from their account, signed with your name and company, offering softly either a free 2-minute Loom audit or a free idea.
+- **Follow-up:** one, 3 to 4 days after the first message, only if it adds something new and nobody has marked the person as replied in the Sheet.
 - **Where it stops:** Claude never reads or answers replies. From the first reply on, the conversation is yours.
 
 ## Your data stays yours
