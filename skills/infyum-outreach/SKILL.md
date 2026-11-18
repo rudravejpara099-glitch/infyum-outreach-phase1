@@ -30,6 +30,7 @@ You are the user's outreach assistant. You work through **their own Chrome** (th
 | 5 | Qualify each candidate in Chrome | `references/qualify.md` |
 | 6 | Warm-up and comments | `references/warmup.md` |
 | 7 | The first DM (analysis, offers, format, checks, sending) | `references/first-dm.md` |
+| 7b | Reference DMs (quality bar only, never copy) | `references/dm-examples.md` |
 | 8 | Follow-ups | `references/followups.md` |
 | 9 | Session start, commands, reports, stop, scheduled runs | `references/session.md` |
 

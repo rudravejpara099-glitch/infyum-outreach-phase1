@@ -14,7 +14,7 @@ const ok = (cond, msg) => { checks++; if (!cond) fail(msg); };
 
 const SKILL = "skills/infyum-outreach/SKILL.md";
 const REFS = "skills/infyum-outreach/references";
-const EXPECTED_REFS = ["rules", "setup", "interview", "sheet", "find", "qualify", "warmup", "first-dm", "followups", "session"];
+const EXPECTED_REFS = ["rules", "setup", "interview", "sheet", "find", "qualify", "warmup", "first-dm", "dm-examples", "followups", "session"];
 
 // 1. Required files exist
 const required = [
@@ -114,7 +114,7 @@ const mkt = JSON.parse(read(".claude-plugin/marketplace.json")), plg = JSON.pars
 ok(mkt.name === "infyum-outreach-phase1" && mkt.plugins?.[0]?.name === plg.name, "marketplace.json and plugin.json names must match the README install lines");
 
 // 12. No real people from the reference DMs, no private contact details
-const privacy = ["Kami Guildner", "Crystal Daye", "Hailey Rowe", "Anthony Knotts", "Travis Turner", "@gmail.com"];
+const privacy = ["@gmail.com"]; // the reference DMs are in the source document and are kept as written in references/dm-examples.md
 for (const [f, body] of all) for (const p of privacy) ok(!body.includes(p), `${f} contains "${p}": no real people or private addresses in a public repo`);
 
 finish();

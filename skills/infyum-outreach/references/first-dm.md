@@ -91,6 +91,10 @@ For a prospect who is a fit, produce these parts in this order (show them to the
 
 For a prospect who is not a fit, return **"SKIP"** and a one-line reason, and nothing else.
 
+## Reference examples
+
+The document's five complete example outputs are in `references/dm-examples.md`. Read them once to see the expected quality, level of specificity and range of angles. **Never copy their structure, openers, phrasing or sign-offs.** Build each new DM from the new profile alone, and make sure it does not resemble them.
+
 ## Before you send
 
 1. Read it once as the prospect. Does it make sense, and would a real person who looked at this account send it? If not, rewrite it.
