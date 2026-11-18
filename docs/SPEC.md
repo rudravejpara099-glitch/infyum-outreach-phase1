@@ -31,7 +31,7 @@ Google Sheets, then Instagram, then Apify.
 - Vague answer: one follow-up round for the missing detail, then accept.
 - After the questions: read the answers back in plain words and wait for a "yes".
 - No memory between chats. A new chat shows a one-line recap derived from the Sheet's Activity Log ("same as last time: ...?"); "yes" accepts it.
-- Owner-fixed, never asked: the three offers, the DM style, the US market.
+- Owner-fixed, never asked: the DM style (from the DM Agent Guidelines document), the US market.
 
 ## 3. Find
 - Search phrases are made by Claude from the user's answers (questions 2 and 4), 5 to 8 of them, written to the Activity Log.
