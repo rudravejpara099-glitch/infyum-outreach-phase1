@@ -1,0 +1,11 @@
+{
+  "name": "infyum-outreach-phase1",
+  "owner": { "name": "INFYUM" },
+  "plugins": [
+    {
+      "name": "infyum-outreach",
+      "source": "./",
+      "description": "INFYUM Instagram outreach (Phase 1): setup interview, find and qualify US coaches, warm-up, first message, follow-ups."
+    }
+  ]
+}

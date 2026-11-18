@@ -1,0 +1,6 @@
+{
+  "name": "infyum-outreach",
+  "version": "0.1.0",
+  "description": "Runs INFYUM's Instagram outreach through the user's own Chrome: setup interview, finding and qualifying US coaches, warm-up, a personal first message, and follow-ups.",
+  "author": { "name": "INFYUM" }
+}

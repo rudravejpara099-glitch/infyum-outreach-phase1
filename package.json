@@ -1,0 +1,10 @@
+{
+  "name": "infyum-outreach-phase1",
+  "private": true,
+  "type": "module",
+  "description": "Consistency checks for the INFYUM outreach kit. The kit itself is Markdown and needs no install.",
+  "scripts": {
+    "check": "node tests/check.mjs"
+  },
+  "engines": { "node": ">=22" }
+}
