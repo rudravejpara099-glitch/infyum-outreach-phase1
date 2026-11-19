@@ -26,7 +26,7 @@ One supervised run on a **spare Instagram account** with **3 profiles**, watched
 ## Warm-up and first message
 - [ ] Warm-up touches a random 2 to 5 posts, not the top of the grid; comments are specific, logged before posting, and visible after.
 - [ ] The first message goes out as **one** message of about 50 to 90 words, signed with the user's name and company, with `dm_text`, `angle`, `offer`, `flags`, `account` filled and the `dm` log line confirmed.
-- [ ] It offers the free 2-minute Loom audit or a free idea, softly, as a question; it contains no link and no invented result.
+- [ ] It offers one of the three free things (Loom audit, where funnel automations fit, free funnel concept), softly, as a question; it contains no link and no invented result.
 - [ ] If a message is made to fail, Claude stops, does not resend, logs `failed` and says what was sent.
 
 ## Follow-ups, stop and schedule

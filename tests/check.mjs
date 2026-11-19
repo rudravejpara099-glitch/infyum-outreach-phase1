@@ -63,7 +63,7 @@ const forbidden = [
   ["English-speaking", "the market is US only"],
   ["UK, Canada", "the market is US only"],
   ["2 to 4 separate", "the first DM is one message built only from the DM Agent Guidelines document"],
-  ["funnel concept", "the DM offers only the two offers in the document (Loom audit or free idea)"],
+  ["free idea for what to improve", "the offers are Loom audit, where automations fit, or a free funnel concept"],
   ["Sign off with his name", "the sender is the user, not a fixed person"],
   ["dms_hard_ceiling_per_day` | 60", "the ceiling is 35"],
   ["START.md", "there is no START.md; the entry is SKILL.md"],

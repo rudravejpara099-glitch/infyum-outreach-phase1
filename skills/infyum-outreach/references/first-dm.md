@@ -16,7 +16,7 @@ INFYUM builds high-converting funnels and automation systems for businesses: fun
 
 **Sender:** the user running the kit, writing from the company's page. Sign off with the user's first name and the company, and vary the format (for example "Name, Company", "Name | Company", or just "Name").
 
-**Offer:** a free 2-minute Loom audit of their funnel or page, or a free idea for what to improve or automate. Pick whichever fits the prospect, and offer it softly as a question ("Want me to show you?").
+**Offer** (three; pick whichever fits the prospect): (1) a free 2-minute Loom audit of their funnel or page; (2) an explanation of where we can add specific funnel-related automations into their current funnel or a future funnel; (3) a free funnel concept designed for them. Offer it softly as a question ("Want me to show you?").
 
 **Tone:** casual and friendly, like one business owner talking to another.
 
@@ -62,7 +62,7 @@ Every DM must be customized to the one prospect. Follow these rules:
 - **Match their voice.** Read how they write and speak (blunt, warm, faith-based, playful, professional) and sound like someone they would talk to.
 - **Use one specific detail from their account** so it is clear the sender looked.
 - **Say what you noticed in plain words, then ask one easy question** about their business, or offer to show something. Describe what would change for them, not how the funnel or automation works.
-- **Offer softly.** The free 2-minute Loom audit or free idea is offered as a question, never as a demand or a pitch.
+- **Offer softly.** The offer (Loom audit, where automations fit into their funnel, or a free funnel concept) is offered as a question, never as a demand or a pitch.
 - **Keep it short.** About **50 to 90 words**, easy to read on a phone.
 - **Avoid repeating yourself across DMs.** Do not reuse the same opener, the same compliment-then-question shape, or the same sign-off.
 
@@ -105,7 +105,7 @@ The document's five complete example outputs are in `references/dm-examples.md`.
 
 ## Log, then send
 
-1. Write the **First DM** text into the lead's `dm_text`; `angle` = the gap from "Why this angle", short; `offer` = `loom` or `free idea`; `flags` = the Flags line, if any; if there is a follow-up, put it in `notes` as `followup draft: <text>`; `account` = the sending account. Add the Activity Log line (`dm`, result `unconfirmed`) **before** you press send.
+1. Write the **First DM** text into the lead's `dm_text`; `angle` = the gap from "Why this angle", short; `offer` = `loom`, `automations` or `funnel concept`; `flags` = the Flags line, if any; if there is a follow-up, put it in `notes` as `followup draft: <text>`; `account` = the sending account. Add the Activity Log line (`dm`, result `unconfirmed`) **before** you press send.
 2. Pause a short human moment after the warm-up (a few minutes, never hours).
 3. Type the DM like a person (not an instant paste). The DM is **one message**: a paragraph break is typed with Shift+Enter so it does not send. Press Enter once at the end and confirm the text appears in the conversation.
 4. **If it does not appear:** stop, never resend, add a `note` line with result `failed`, and tell the user exactly what was and was not sent.

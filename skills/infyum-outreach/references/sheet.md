@@ -26,7 +26,7 @@ One Google Sheet is the only store. The INFYUM team shares **INFYUM Outreach Dat
 - `skip_reason`: private, restricted profile, under min followers, over max followers, outside market, no message button, dms closed, connected to team, competitor or agency, big brand, wrong niche, inactive, low engagement, cannot pay, no offer, winding down, duplicate, already contacted, dropped by user, not found.
 - `notes`: `do not contact` on a Skipped row means nobody ever touches that account; `duplicate`; `funnel: ...` is optional.
 - `dm_text`: all messages of the first DM in order, one blank line between messages.
-- `account`: the Instagram username that sent the first message (lowercase, no @). `angle`: the funnel gap you chose. `offer`: loom or free idea. `flags`: for example `location unconfirmed, assumed US` or `limited data visible`.
+- `account`: the Instagram username that sent the first message (lowercase, no @). `angle`: the funnel gap you chose. `offer`: loom, automations or funnel concept. `flags`: for example `location unconfirmed, assumed US` or `limited data visible`.
 - `followup1_at`: UTC time the follow-up was sent; `followup1_text`: the full text. (`followup2_at` and `followup2_text` are no longer used: there is one follow-up.) The follow-up drafted with the first DM waits in `notes` as `followup draft: ...`.
 - `replied`, `reply_note`: **filled by people only. You never write them.** `claimed_at`, `updated_at`, `dm_sent_at`: UTC.
 - Fill `profile_url` as `https://www.instagram.com/<username>/`. `member` is the person's first name, exactly as on their Team row.

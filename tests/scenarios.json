@@ -15,7 +15,7 @@
   { "id": "no-story-text-reply", "file": "skills/infyum-outreach/references/warmup.md", "mustContain": "Never reply to a story with text" },
   { "id": "dm-length", "file": "skills/infyum-outreach/references/first-dm.md", "mustContain": "About **50 to 90 words**" },
   { "id": "dm-sign-off", "file": "skills/infyum-outreach/references/first-dm.md", "mustContain": "Sign off with the user's first name and the company" },
-  { "id": "two-offers", "file": "skills/infyum-outreach/references/first-dm.md", "mustContain": "a free 2-minute Loom audit of their funnel or page, or a free idea" },
+  { "id": "three-offers", "file": "skills/infyum-outreach/references/first-dm.md", "mustContain": "a free funnel concept designed for them" },
   { "id": "check-chat-first", "file": "skills/infyum-outreach/references/first-dm.md", "mustContain": "Check the chat" },
   { "id": "teacher-rule", "file": "skills/infyum-outreach/references/first-dm.md", "mustContain": "prospects who teach marketing or sales" },
   { "id": "followup-uses-replied-only", "file": "skills/infyum-outreach/references/followups.md", "mustContain": "The `replied` column is the only signal" },
