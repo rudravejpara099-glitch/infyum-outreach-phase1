@@ -14,13 +14,9 @@ INFYUM builds high-converting funnels and automation systems for businesses: fun
 
 **Do not describe INFYUM with that wording in the DM.** Coaches and consultants think in their own problems, such as "my calendar isn't full", "leads ghost me", or "I'm stuck doing follow-ups myself". Name their problem in their words and say what would change for them. Mention funnels or automation only lightly, in plain terms.
 
-**Sender:** the user running the kit, writing from the company's page. Sign off with the user's first name and the company, and vary the format (for example "Name, Company", "Name | Company", or just "Name").
+**Sender:** the user running the kit, writing from the company's page. Put the user's first name and the company **inside the message itself**, in plain words in the last paragraph (for example "I'm Rudra from INFYUM, and ..."). **No separate sign-off line and no "|".** Vary how you say it from one DM to the next.
 
-**Offer** (the three free offers; pick the one that fits, offer it softly as a question such as "Want me to show you?"):
-  1. **Loom audit:** a free 2-minute Loom audit of their funnel or page. Use it when they have a visible funnel or page with a gap you can point at. (`offer: loom`)
-  2. **Automations:** an explanation of where we can add specific funnel-related automations into their current funnel or a future funnel. Use it when their funnel already works, when they run on "comment X" or "DM X" keywords, or when follow-up is clearly by hand. Name one or two concrete places they would go (for example "keyword, then a quick quiz, then a booking step" or "a replay and a nudge for people who missed the live"). (`offer: automations`)
-  3. **Funnel concept:** a free funnel concept designed for them. Use it when there is no funnel, or no path between their offers, or an event just ended with nowhere to go. (`offer: funnel concept`)
-  Offer one per DM, never all three.
+**Offer** (three; pick whichever fits the prospect): a free 2-minute Loom audit of their funnel or page; an explanation of where we can add specific funnel-related automations into their current funnel or a future funnel; or a free funnel concept designed for them. Offer it softly as a question ("Want me to show you?").
 
 **Tone:** casual and friendly, like one business owner talking to another.
 
@@ -62,22 +58,13 @@ Pick the angle that matches what is actually weak in this prospect's business, a
 ## Step 3: Write the first DM
 
 Every DM must be customized to the one prospect. Follow these rules:
-- **No templates and no repeated pattern.** Change the structure, the opening, the length, the sign-off, the emoji use and the way you describe the offer from one DM to the next. One DM can open with a direct observation, another with a single line and a question, another with a short insight and no question. Some are playful and some serious, depending on the person.
+- **No templates and no repeated pattern.** Change the structure, the opening, the length, the way you introduce yourself, the emoji use and the way you describe the offer from one DM to the next. One DM can open with a direct observation, another with a single line and a question, another with a short insight and no question. Some are playful and some serious, depending on the person.
 - **Match their voice.** Read how they write and speak (blunt, warm, faith-based, playful, professional) and sound like someone they would talk to.
 - **Use one specific detail from their account** so it is clear the sender looked.
 - **Say what you noticed in plain words, then ask one easy question** about their business, or offer to show something. Describe what would change for them, not how the funnel or automation works.
-- **Offer softly.** The offer (one of the three above) is offered as a question, never as a demand or a pitch.
+- **Offer softly.** The offer is offered as a question, never as a demand or a pitch.
 - **Keep it short.** About **50 to 90 words**, easy to read on a phone.
-- **Avoid repeating yourself across DMs.** Do not reuse the same opener, the same compliment-then-question shape, or the same sign-off.
-
-## The quality bar
-
-1. **It opens with their own words or numbers**: a quote from a post, a count, a year, an event, a line from their bio. It must be something only a person who read their page could say.
-2. **It names the gap concretely**: say exactly what you saw (what the bio link does, which offers have no path between them, what the posts tell people to do). Never a vague "I couldn't spot a next step". If you cannot name the exact thing, go back and look: open the posts, read the captions and the link-in-bio page, scroll the highlights.
-3. **It paints a one-sentence picture of the fix** in their language, a short path they can imagine (for example "quiz, then a 90-day plan, then the call"), never how the technology works.
-4. **It ends on one easy question or a soft offer** that is easy to answer.
-5. **It reads like a person typing**: short paragraphs, plain words, the sign-off varied.
-6. **It is not generic**: if it could go to any other coach by swapping the name, rewrite it.
+- **Avoid repeating yourself across DMs.** Do not reuse the same opener, the same compliment-then-question shape, or the same way of introducing yourself.
 
 ## Step 4: Write the follow-up
 

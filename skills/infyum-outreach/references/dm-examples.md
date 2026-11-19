@@ -1,6 +1,6 @@
 # Reference DMs (from the DM Agent Guidelines document)
 
-*Source: the same document as `references/first-dm.md`, section "Reference examples", copied as written. These are complete outputs for real profiles. Use them only to see the expected quality, level of specificity and range of angles. **Never copy their structure, openers, phrasing or sign-offs.** Build each new DM from the new profile alone, and make sure it does not resemble these.*
+*Source: the same document as `references/first-dm.md`, section "Reference examples", copied as written, except that the sender's name and company now sit inside the message instead of a separate sign-off line. These are complete outputs for real profiles. Use them only to see the expected quality, level of specificity and range of angles. **Never copy their structure, openers, phrasing or sign-offs.** Build each new DM from the new profile alone, and make sure it does not resemble these.*
 
 ## Example 1: Kami Guildner
 
@@ -17,8 +17,7 @@ One thing I noticed though: your top bio link still points to Ignite, which has 
 wrapped. Right now is probably when the most women are discovering you through
 the recap videos, and there's nowhere for them to raise their hand for 2027 yet.
 Is an early-bird or waitlist page already in the works? If not, I'd be glad to sketch what
-that could look like for you.
-Sunil | INFYUM
+that could look like for you. I'm Sunil from INFYUM.
 
 **Follow-up:**
 Hi Kami, one more thought and then I'll leave you be 🙂 Your podcast guests (Tiffany,
@@ -46,8 +45,7 @@ be built. Download the planner → a few emails sharing your story and authors l
 Kemone → an invite to work with you.
 You said it best yourself:
 "No sales, no impact." 😄 Would love to show you what that
-could look like before 2027 planning season kicks off.
-— Sunil from INFYUM
+could look like before 2027 planning season kicks off. I'm Sunil from INFYUM.
 
 **Follow-up:**
 Hi Crystal, I know November is busy with R.E.A.P. coming up! Just leaving this here: I
@@ -74,10 +72,9 @@ Funny thing is, when I went through your world as a new follower, I found a Link
 class, free gifts on Linktree, a consult link and your membership, but nothing guiding
 me from one to the next. You've built three great offers (private, group, membership).
 They don't seem to hand people off to each other yet.
-That's the stuff we build at INFYUM: funnels where someone grabs the LinkedIn
+I'm Sunil, and that's the stuff we build at INFYUM: funnels where someone grabs the LinkedIn
 freebie and naturally ends up in the right offer for them.
 Curious, which of your three offers do you most want to fill in 2027?
-Sunil
 
 **Follow-up:**
 Hi Hailey! Loved your point about spending 13 hrs/week on content not being the best
@@ -103,8 +100,7 @@ book a call has nowhere to go, and I'd guess each DM is a hand-typed reply.
 What if each keyword started its own path: a quick "approval readiness" check for
 clients, a separate one for Team MORE, and the call only for people who qualify? That
 could help you get to 21 without living in your DMs.
-Want a 2-min Loom of how I'd set it up?
-Sunil, INFYUM
+I'm Sunil from INFYUM. Want a 2-min Loom of how I'd set it up?
 
 **Follow-up:**
 Anthony, one thing I'd test first: swap the Calendly for a short "Are you approval
@@ -126,9 +122,8 @@ Travis,"$200K funded and 1000+ deletions" is a strong proof line.
 One thing I noticed: your highlights split into Credit Repair, Homeownership and
 Ebooks, so someone landing on your page has to work out which one is theirs. And"excellent credit in 90 days" is made for a guided path: a 2-minute quiz, then a 90-day
 plan, then the call.
-That's what we build at INFYUM. Want a 2-min Loom of how it could look for your
+I'm Sunil from INFYUM, and that's what we build. Want a 2-min Loom of how it could look for your
 page?
-Sunil
 
 **Follow-up:**
 Travis, quick question: do your ebooks lead anywhere right now, or are they a one-off
