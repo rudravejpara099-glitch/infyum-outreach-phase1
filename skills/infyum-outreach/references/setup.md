@@ -35,7 +35,7 @@ Run `references/interview.md` now. Do not sign in to anything before the intervi
 1. Ask: "Do you have the Sheet link from Rudra? Paste it if you do." If they paste it, open that exact Sheet. If not, search the user's Drive for the title **INFYUM Outreach Database**.
 2. If you cannot find it, or you can read it but not write to it, do not guess and do not create a new Sheet. Say exactly: "I can't open the team Sheet with the Google account you connected (<email>). Please ask Rudra to share it with that email as an Editor, or send me the link he gave you, then say 'ready'." Wait.
 3. Read the tabs `Start here`, `Team`, `All Leads`, the hidden `Settings`, and the last lines of `Activity Log`.
-4. Find the user's row on `Team` by first name and Instagram username (done after 1.5, when you know the username). Team members must already be listed there by the admin.
+4. Find the user's row on `Team` by first name and Instagram username (done after 1.5, when you know the username). If the user is not listed yet, add them yourself at step 1.5 (`references/sheet.md`, "Add a teammate"); never add anyone else.
 
 **Client (own business).** You build their Sheet in their own Drive, exactly like the team Sheet. Follow "Building a client Sheet" in `references/sheet.md`; add their Team row at the Instagram step (1.5), when you know their username.
 **If creating the Sheet fails** (for example "Drive storage quota exceeded"): say in one plain line what failed ("Your Google Drive is full, so I can't create your Sheet"), what they can do (free some space, or connect a different Google account), then wait. No retry loop, no half-built Sheet, and never write into another existing Sheet.
