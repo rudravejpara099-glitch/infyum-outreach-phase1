@@ -14,7 +14,7 @@ const ok = (cond, msg) => { checks++; if (!cond) fail(msg); };
 
 const SKILL = "skills/infyum-outreach/SKILL.md";
 const REFS = "skills/infyum-outreach/references";
-const EXPECTED_REFS = ["rules", "setup", "interview", "sheet", "find", "qualify", "warmup", "first-dm", "dm-examples", "followups", "session"];
+const EXPECTED_REFS = ["rules", "setup", "interview", "sheet", "find", "qualify", "warmup", "first-dm", "dm-examples", "followups", "session", "account-safety"];
 
 // 1. Required files exist
 const required = [

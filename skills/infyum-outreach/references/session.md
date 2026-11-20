@@ -5,15 +5,16 @@
 1. **Read the Sheet silently:** your `Team` row (`status` must be `active`), `Settings`, `All Leads` and the last lines of the `Activity Log`. Find the latest `interview:` note for this member.
 2. **Sign-in and account:** open Instagram, read the username from the address bar, confirm it matches your `Team` row's `ig_username`. A different account than the row means stop and say so.
 3. **Claim the account** and read today's count (`references/sheet.md`). In use by someone else: say exactly "This account is currently in use by someone else." and stop.
-4. **Follow-ups due** (`references/followups.md`): do them now, without being asked.
-5. **Warmed-up prospects whose first message was not sent** (stage Engaged): finish them (`references/first-dm.md`).
-6. **New prospects.** A new user runs `references/setup.md` and has already answered interview question 9, so do not ask the number again. A returning user is offered the recap from the latest `interview:` note ("Same as last time: ...? Say yes, or tell me what to change") and asked once: "How many new profiles today?" (never more than `dms_left`).
+4. **Account safety check** (`references/account-safety.md`): the account is ready (Rule A), no rest is running after a warning (Rule C), it is daytime and not the rest day (Rule D), and today's limits (Rule B). If any says no, do only what is allowed (finding prospects is always allowed) and say so in one line.
+5. **Follow-ups due** (`references/followups.md`): do them now, without being asked.
+6. **Warmed-up prospects whose first message was not sent** (stage Engaged): finish them (`references/first-dm.md`).
+7. **New prospects.** A new user runs `references/setup.md` and has already answered interview question 9, so do not ask the number again. A returning user is offered the recap from the latest `interview:` note ("Same as last time: ...? Say yes, or tell me what to change") and asked once: "How many new profiles today?" (never more than today's number in `references/account-safety.md`, Rule B).
 
-Then run the loop below until the number is reached, you are stopped, or you are signed out.
+Then run the loop below until the number is reached, a session or day limit in `references/account-safety.md` is reached, a warning appears, you are stopped, or you are signed out.
 
 ## The loop: one prospect after another
 
-Find (`references/find.md`) → qualify (`references/qualify.md`) → warm up (`references/warmup.md`) → first DM (`references/first-dm.md`), logging each step. Do not stop to report after each prospect and do not ask anything on the way. Report at once only if you are signed out or hit an identity check. When fewer than 5 candidates are waiting, find more. **The aim is up to 35 a day per account; it is a target, not a quota to hit at any cost.**
+Find (`references/find.md`) → qualify (`references/qualify.md`) → warm up (`references/warmup.md`) → first DM (`references/first-dm.md`), logging each step. Do not stop to report after each prospect and do not ask anything on the way. Report at once only if you are signed out, hit an identity check, or see an Instagram warning. When fewer than 5 candidates are waiting, find more. **The aim is today's number from `references/account-safety.md` (never above 35); it is a limit, not a quota to hit at any cost.**
 
 ## Commands
 
@@ -30,7 +31,7 @@ Find (`references/find.md`) → qualify (`references/qualify.md`) → warm up (`
 ## Reports (in your own words, short)
 
 - **After a prospect:** "Done with @name: followed, liked 3 posts and commented on 2. Their first message is sent. They're yours now."
-- **End of a session or scheduled run:** first messages sent out of the account's 35, follow-ups sent, skipped with reasons, any Instagram warnings, anything that needs the user, and a line "@name is handed over to you" for each new first message.
+- **End of a session or scheduled run:** the account-safety line (`references/account-safety.md`), first messages sent out of the account's 35, follow-ups sent, skipped with reasons, any Instagram warnings, anything that needs the user, and a line "@name is handed over to you" for each new first message.
 - **Signed out or an identity check:** "Instagram needs you: [what it showed]. Please sign in or complete it in Chrome and tell me when it's done; I'll carry on."
 
 ## Scheduled runs
@@ -43,6 +44,7 @@ The kit does not create or offer a schedule. A user who wants one sets it up in 
 1. Read your `Team` row. If `status` is not `active`, do nothing and say so.
 2. **Account in use by someone else:** skip the run and write a `note` line; the next scheduled time tries again.
 3. Use the latest `interview:` note. If there is none, do only the follow-ups and write a `note` line saying why.
-4. **Blocked** (signed out, identity check, Chrome closed, Sheets or Apify disconnected): stop, write **one** `note` line with exactly what happened, and end with a short summary. There is **no catch-up**: a missed run simply happens at the next time.
+4. **Blocked** (an Instagram warning, signed out, identity check, Chrome closed, Sheets or Apify disconnected): stop, write **one** `note` line with exactly what happened, and end with a short summary. There is **no catch-up**: a missed run simply happens at the next time.
 5. At the user's next session, tell them first about anything a scheduled run left in the Activity Log that needs them.
 6. Release the account (`in_use` cleared) when the run ends.
+7. Account safety applies in full: a scheduled run outside daytime, on the rest day, during a rest after a warning, or with today's limits used up does nothing on Instagram and writes one `note` line.

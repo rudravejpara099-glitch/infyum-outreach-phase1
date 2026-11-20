@@ -31,8 +31,8 @@ A question with no sensible default still gets a ➡️ line, for example "➡�
 5. **Company.** "Your company in one line? *INFYUM team: just reply `infyum`, we already have it.*" ➡️ No default (INFYUM team: `infyum`). On `infyum`, read `company` and `what_we_do` from the Sheet's `Settings`.
 6. **Link.** "The one link I may use in messages? *INFYUM team: just reply `infyum`.*" ➡️ No default, or "none" (INFYUM team: `infyum`). On `infyum`, use the `work_sample` rows in `Settings`.
 7. **Check list.** "Which exact Instagram usernames should I look for in a prospect's followers and following? If one is there, I skip that prospect." ➡️ No default: type the exact usernames (everyone types them, including the INFYUM team).
-8. **Account.** "Spare or established Instagram account?" ➡️ Spare. (One honest line: automated-style activity can get any account restricted.)
-9. **Today.** "How many profiles today (max 35 per Instagram account), and the full run or only part?" ➡️ 10, full run. (Part means for example find and check only, or the full run without one warm-up action such as story reactions or comments.)
+8. **Account.** "Which Instagram account, how old is it, and has a person used it by hand (posts, scrolling, follows)?" ➡️ An account at least 2 weeks old that you have used yourself. (One honest line: a brand-new account gets suspended fast, and automated-style activity can get any account restricted.)
+9. **Today.** "How many profiles today, and the full run or only part?" ➡️ The safe number for this account today (from `references/account-safety.md`; 3 on a new account's first days), full run. (Part means for example find and check only, or the full run without one warm-up action such as story reactions or comments.)
 
 ## Digging in
 
@@ -47,13 +47,13 @@ When nothing is left to ask, read all the answers back in plain words (a short s
 
 ## Remember it (there is no memory between chats, so write it down)
 
-After the "yes", append **one** `note` line to the Activity Log whose `detail` starts with `interview:` and holds the answers in one line (industry, follower range and best band, activity rule, problem and signal, company, links choice, check-list usernames, account type). Next time, read the latest `interview:` note for this member and ask one line: "Same as last time: <summary>? Say yes, or tell me what to change." "Yes" accepts it; no ten-question interview each day. A scheduled run uses that latest note without asking.
+After the "yes", append **one** `note` line to the Activity Log whose `detail` starts with `interview:` and holds the answers in one line (industry, follower range and best band, activity rule, problem and signal, company, links choice, check-list usernames, account age and use). Next time, read the latest `interview:` note for this member and ask one line: "Same as last time: <summary>? Say yes, or tell me what to change." "Yes" accepts it; no ten-question interview each day. A scheduled run uses that latest note without asking.
 
 ## What the answers drive
 
 - Q1 gives the Team row's `member`, `time_zone` and `utc_offset_hours` (work out the offset from the time zone; ask only if you cannot).
 - Q2 and Q4 become your search phrases (`references/find.md`) and the industry and problem checks (`references/qualify.md`).
 - Q3 sets the follower range, the order (best band first) and the activity check.
-- Q5 and Q6 fill the company line and the link in the DM and the signature (`references/first-dm.md`).
+- Q5 fills the company line in the DM (`references/first-dm.md`). Q6 is saved for the user to send by hand after a reply: no link ever goes in a first message or follow-up (`references/account-safety.md`, Rule G).
 - Q7 is the connected-accounts check (`references/qualify.md`, check 11).
 - Q9 is today's number (never above the account's `dms_left`).

@@ -52,7 +52,7 @@ Run `references/interview.md` now. Do not sign in to anything before the intervi
    - **Client:** add their Team row (first name, username, `status` active, `start_date` today, time zone and UTC offset from the interview).
    - **Time zone:** all Team rows with the same `ig_username` must carry the same `time_zone` and `utc_offset_hours`. If they differ, stop and tell the user to ask the admin; the day boundary of the 35 depends on it.
 7. **Claim the account** and check the count (`references/sheet.md`, "The account lock" and "Counting the 35"). If it is in use by someone else: say exactly "This account is currently in use by someone else." and stop. If `dms_left` is 0: tell the user the account has reached its 35 for today.
-8. Say once, honestly and briefly, if they chose an established account: automated-style activity can get any account restricted; a spare account is the safe choice. Do not repeat it.
+8. **Account safety** (`references/account-safety.md`, Rule A). If interview answer 8 says the account is under 14 days old or not used by hand, say the one line from Rule A and do no Instagram actions with it. Otherwise ask once, in one short round: "Please confirm your email and phone number on this account, turn on two-factor authentication, and make sure it has a profile photo and a bio. No VPN. Say done." Say once, honestly: automated-style activity can get any account restricted; these steps lower the risk, nothing removes it.
 
 ## 1.6 Apify (third sign-in; wanted, not required)
 

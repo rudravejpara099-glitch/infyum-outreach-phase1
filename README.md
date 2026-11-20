@@ -15,7 +15,7 @@ Nothing to install. No files to edit. No account to create with us, and no permi
 | What | Why |
 |---|---|
 | **Claude** (desktop app) with the **Claude in Chrome** extension | Claude uses it to see and click in your Chrome, like a person would. Add it from the Chrome Web Store (publisher Anthropic) and sign in. It needs a paid Claude plan. |
-| **An Instagram account** | The account the messages come from. A spare account is the safe choice. You sign in yourself, in the Chrome profile Claude in Chrome is connected to. Claude never sees your password. |
+| **An Instagram account** | The account the messages come from. Use an account at least 2 weeks old that a person has used by hand; a brand-new account gets suspended fast. You sign in yourself, in the Chrome profile Claude in Chrome is connected to. Claude never sees your password. |
 | **A Google account** | Your lead list lives in a Google Sheet. INFYUM team members use the shared team Sheet; clients get their own, built for them. |
 | **Apify** (free plan is enough, optional) | The fastest way to find prospects. Without it Claude uses web search, which is slower. |
 
@@ -63,7 +63,7 @@ Your lead list lives in your Google Sheet (or the shared team Sheet), which we n
 
 ## Worth knowing
 
-Liking, commenting, following and messaging automatically can go against Instagram's rules, and Instagram can limit an account that behaves unusually. That risk is real; a spare account is the safe choice. Scheduled runs (if you set one up yourself in Claude's scheduled tasks) need your computer awake, with Claude Desktop and Chrome open.
+Liking, commenting, following and messaging automatically can go against Instagram's rules, and Instagram can limit an account that behaves unusually. That risk is real. The kit keeps it low: daily limits that start small and grow slowly, daytime-only short sessions, a rest day each week, no links to strangers, and a full stop with a 48-hour rest on any Instagram warning. Nothing removes the risk completely. Scheduled runs (if you set one up yourself in Claude's scheduled tasks) need your computer awake, with Claude Desktop and Chrome open.
 
 ---
 

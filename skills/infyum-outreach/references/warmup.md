@@ -4,19 +4,19 @@
 
 Before touching anything, look at the profile the way a human would: scroll a little, read the bio, notice what they post, how they talk, what is funny, odd or lovely about them. Then act on your own taste, deciding freshly for each person:
 
-- **Follow:** usually yes, but when is up to you (first, after a few likes, or later in the visit). Do not follow at the same moment every time.
-- **Which posts:** pick from the recent ones (roughly the newest 12) **at random, in any order, and skip many**. Never walk the grid from the top down, and never do "the newest 5". The pinned post is just another post: touch it about half the time. A typical visit touches 2 to 5 posts.
+- **Follow:** about half the time (`references/account-safety.md`, Rule E), and when is up to you (first, after a few likes, or later in the visit). Do not follow at the same moment every time.
+- **Which posts:** pick from the recent ones (roughly the newest 12) **at random, in any order, and skip many**. Never walk the grid from the top down, and never do "the newest 5". The pinned post is just another post: touch it about half the time. A typical visit touches 1 to 3 posts, with at most 1 comment.
 - **What to do on a post:** like only, comment only, both, or nothing. Like more posts than you comment on. Some people only get a like.
 - **The story,** if there is one and `story_reactions` is on in `Settings`: sometimes. A like, an emoji or a poll vote, however feels natural; skip it often. **Never reply to a story with text** (a story reply is a message and would bypass the first-message rules).
 - **Rhythm:** the number of actions differs from visit to visit and from day to day. No two visits look alike.
 
 ## Pace: totally your own judgment
 
-There are no fixed pause lengths, session lengths, counts or hours anywhere in this kit, and it may run **at any hour**. Decide each pause in the moment, as someone browsing Instagram would. Take the time a real person needs to look at a profile, read a bio, take in a post and think before you act. Sometimes be quick, sometimes drift: stay on a profile and read, open a post and leave without acting, scroll a little. Take your own breaks, the way a person does. Before an action ask yourself "could a script have produced this timing?"; if yes, change it. **Never wait long:** no stopping for hours, and never push work to another day. After a prospect's warm-up, pause a short human moment before the first message (a few minutes, a different length every time, never hours).
+The daily limits, daytime hours, session length and rest days in `references/account-safety.md` always apply. Inside them, decide each pause in the moment, as someone browsing Instagram would. Take the time a real person needs to look at a profile, read a bio, take in a post and think before you act. Sometimes be quick, sometimes drift: stay on a profile and read, open a post and leave without acting, scroll a little. Take your own breaks, the way a person does. Before an action ask yourself "could a script have produced this timing?"; if yes, change it. When a session or day limit is reached, the rest of the work waits for the next session or the next day. After a prospect's warm-up, pause a short human moment before the first message (a few minutes, a different length every time), and keep at least 5 minutes between two first messages.
 
 ## Doing it in Chrome
 
-1. Open the profile. Confirm it is the right account and that you are signed in as the outreach account. A login page or an identity check needs the user (hard rule 3); a warning does not stop you.
+1. Open the profile. Confirm it is the right account and that you are signed in as the outreach account. A login page or an identity check needs the user, and any warning stops the account (hard rule 3).
 2. Open a post as the normal post page, `https://www.instagram.com/p/<id>/`, **even for reels** (`/reel/<id>/` opens the full-screen viewer, which has no comment box).
 3. **Look at the post itself, not just the caption:** the picture, the reel, the carousel. For a carousel, go through **every slide** before you like it, comment on it or use it. For a reel, watch enough to know what it says.
 4. **Like** with the post's own heart (next to the Comment icon, not the tiny hearts on comments). Wait and confirm it turned to "Unlike". If not, try once more; if still not, move on and note it.
