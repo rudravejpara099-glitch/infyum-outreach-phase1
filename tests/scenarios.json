@@ -2,6 +2,7 @@
   { "id": "cloud-session-stops", "file": "skills/infyum-outreach/SKILL.md", "mustContain": "I need to run on your own computer so I can use your Chrome" },
   { "id": "one-wide-industry", "file": "skills/infyum-outreach/references/interview.md", "mustContain": "Which ONE industry do you want to reach" },
   { "id": "industry-overrides-coaches", "file": "skills/infyum-outreach/references/first-dm.md", "mustContain": "The user's industry replaces" },
+  { "id": "own-tab-and-row-allowed", "file": "skills/infyum-outreach/references/rules.md", "mustContain": "their own `Leads_<Name>` tab (a copy of `Leads_Template`)" },
   { "id": "never-passwords", "file": "skills/infyum-outreach/references/rules.md", "mustContain": "Never ask for, type or store passwords" },
   { "id": "log-before-send", "file": "skills/infyum-outreach/references/rules.md", "mustContain": "Log before you send" },
   { "id": "warning-stops-account", "file": "skills/infyum-outreach/references/rules.md", "mustContain": "An Instagram warning stops the account" },
