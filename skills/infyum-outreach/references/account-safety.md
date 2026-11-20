@@ -27,7 +27,7 @@ Say this honestly if the user asks: Instagram can restrict or disable any accoun
 Your `Team` row's `day_number` is how many days the kit has used this account (day 1 is `start_date`).
 
 **Effective day (this decides the line you use).**
-- **Established account:** the user says in interview answer 8 that the account is established and they use it by hand every day (Rule A is met: 14+ days old, real daily use). Effective day = `day_number` + 14, so it starts on the 15 to 30 line, not on 3 messages a day.
+- **Established account:** interview answer 8 shows the account is 14 or more days old and the user uses it by hand most days (Rule A is met). If they say "established" but give no age, ask once for the age and whether they use it by hand most days. Effective day = `day_number` + 14, so it starts on the 15 to 30 line, not on 3 messages a day.
 - **Spare, new or rarely used account:** effective day = `day_number`.
 - Everywhere below that says "kit day", use the effective day. After a warning, Rule C sets the line instead.
 
