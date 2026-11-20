@@ -23,5 +23,5 @@ Start from the `followup draft:` in `notes`. Send it only if it still **adds som
 
 1. Write the text into `followup1_text` and add the Activity Log line (`followup`, result `unconfirmed`) **before** you send.
 2. Type it like a person; paragraph breaks with Shift+Enter; Enter once at the end; confirm it appears.
-3. If it does not appear: stop, never resend, add a `note` line with result `failed`, and tell the user exactly what was and was not sent.
+3. If it does not appear: reload the chat once after about a minute; if it is still missing and no Instagram notice appeared, send it once more (`references/account-safety.md`, "A failed send"); if that fails or a notice appears, stop, add a `note` line with result `failed`, and tell the user exactly what was and was not sent.
 4. When confirmed: set `followup1_at` to UTC now, update `updated_at`, and change the log line's result to `confirmed`. The `stage` stays DM sent.

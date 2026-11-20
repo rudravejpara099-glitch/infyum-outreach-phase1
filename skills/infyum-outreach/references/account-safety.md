@@ -49,7 +49,7 @@ Use the line for today's effective day. These are the kit's own careful numbers;
 
 ## Rule C: a warning stops the account
 
-**Any** of these is a warning: "Action blocked", "Try again later", "We restrict certain activity", "We suspect automated behavior", "Your account has been restricted", a puzzle or "confirm it's you" screen, or a message that did not send.
+**Any** of these is a warning: "Action blocked", "Try again later", "We restrict certain activity", "We suspect automated behavior", "Your account has been restricted", or a puzzle or "confirm it's you" screen. A message that merely failed to send is **not** a warning by itself: see "A failed send" below.
 
 1. **Stop every Instagram action on this account at once.** Do not retry the action, and do not try another kind of action instead.
 2. If the screen has a plain OK or Dismiss button, press it. Anything that asks for a code, a phone number, a password or "this was me" is the user's to answer.
@@ -57,7 +57,16 @@ Use the line for today's effective day. These are the kit's own careful numbers;
 4. **Rest:** no actions on this account for **48 hours** from the warning (finding prospects with Apify or web search is fine). After the rest, use the **kit day 1 to 3** line for 3 days, then climb back up the table one line every 3 days until you reach the line for the real `day_number`.
 5. **Two warnings within 7 days:** no actions for **7 days,** and tell the user.
 6. **A suspension or a disabled account:** stop at once and do nothing more with **that account**. Log a `warning` line and a `pause` line. Tell the user in plain words, once: "Instagram suspended @name. Only you can appeal, through Instagram's own form. A brand-new account made right after a suspension on the same computer or network is often suspended too, so I won't make one. Another established account of yours is your choice, and I can carry on with it if you say so." **This never blocks a different account:** a suspension on one account is not a reason to stop work on another one, and a suspension on someone else's account (another member, another computer) is none of this account's business. Never create or suggest a replacement account.
-7. **At every session start,** read the Activity Log for `warning` lines on **this account** from the last 7 days and apply these rests before doing anything. Ignore warning and pause lines for other accounts.
+7. **At every session start,** read the Activity Log for `warning` lines on **this account** from the last 7 days and apply these rests before doing anything. Skip a `pause` that a later `note` line starting `pause cancelled:` has cancelled. Ignore warning and pause lines for other accounts.
+
+**A failed send (no Instagram notice).** A message part that does not appear, with a red "not sent" icon or just nothing, is usually a network drop. Do not treat it as a warning unless Instagram shows one of the warning texts above. Check it like this, once:
+1. Wait about a minute, then reload the conversation (and check that the page loads normally and you are still signed in).
+2. If the part is now in the chat: it was delivered. Carry on with the next part.
+3. If it is not in the chat and **no Instagram notice appeared** (no "Action blocked", "Try again later", restriction or "suspect automated behavior" text): it was a failed send. Send that **one** part again, once, and confirm it appears. Never send a part that is already in the chat, and never send more than one retry.
+4. If the retry fails too, or **any** Instagram notice appears at any point: it is a warning. Stop and apply Rule C. Log which parts were sent.
+Log a `note` line with result `failed` for the first failure and what you saw (for example `no Instagram notice, retried once`).
+
+**If the user says it was a network problem after a pause was set for a failed send** and no Instagram notice was ever shown: open the chat, check that no notice is on screen, then log a `note` line starting `pause cancelled:` with the reason, and carry on. Anything that showed a real Instagram notice is never cancelled this way.
 
 ## Rule D: a human rhythm
 
