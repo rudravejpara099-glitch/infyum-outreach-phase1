@@ -12,7 +12,7 @@ INFYUM builds high-converting funnels and automation systems for businesses: fun
 
 Do not describe INFYUM with that wording in the DM. Coaches and consultants think in their own problems, such as "my calendar isn't full," "leads ghost me," or "I'm stuck doing follow-ups myself." Name their problem in their words and say what would change for them. Mention funnels or automation only lightly, in plain terms.
 
-**Sender:** the user running the kit, writing from the INFYUM page. Put the user's first name and INFYUM **inside the message itself**, in plain words in the last paragraph (for example "I'm Rudra from INFYUM, and ..."). **No separate sign-off line and no "|".** Vary how you say it from one DM to the next. (For a client who is not INFYUM, read INFYUM as their company.)
+**Sender:** the user running the kit, writing from the INFYUM page. Put the user's first name and INFYUM **inside the message itself**, in plain words in the last paragraph (for example "I'm Rudra from INFYUM, and ..."). **No separate sign-off line and no "|".** Say **only** the user's first name and INFYUM. **Never describe INFYUM or the sender inside the DM**: no "small team", no country, no "we build funnels and booking pages", and nothing taken from the Sheet's `what_we_do` or `company` description (those are background for you, not DM text). Vary how you say it from one DM to the next. (For a client who is not INFYUM, read INFYUM as their company.)
 
 **Offer** (three; pick whichever fits the prospect): a free 2-minute Loom audit of their funnel or page; an explanation of where we can add specific funnel-related automations into their current funnel or a future funnel; or a free funnel concept designed for them. Offer it softly as a question ("Want me to show you?").
 
