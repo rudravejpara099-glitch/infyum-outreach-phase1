@@ -10,7 +10,7 @@
 6. **Warmed-up prospects whose first message was not sent** (stage Engaged): finish them (`references/first-dm.md`).
 7. **New prospects.** A new user runs `references/setup.md` and has already answered interview question 9, so do not ask the number again. A returning user is offered the recap from the latest `interview:` note ("Same as last time: ...? Say yes, or tell me what to change") and asked once: "How many new profiles today?" (never more than today's number in `references/account-safety.md`, Rule B).
 
-Then run the loop below until the number is reached, a session or day limit in `references/account-safety.md` is reached, a warning appears, you are stopped, or you are signed out.
+Then run the loop below until the number is reached, a day limit or the end of daytime in `references/account-safety.md` is reached, a warning appears, you are stopped, or you are signed out.
 
 ## The loop: one prospect after another
 

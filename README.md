@@ -63,7 +63,7 @@ Your lead list lives in your Google Sheet (or the shared team Sheet), which we n
 
 ## Worth knowing
 
-Liking, commenting, following and messaging automatically can go against Instagram's rules, and Instagram can limit an account that behaves unusually. That risk is real. The kit keeps it low: daily limits that start small and grow slowly, daytime-only short sessions, a rest day each week, no links to strangers, and a full stop with a 48-hour rest on any Instagram warning. Nothing removes the risk completely. Scheduled runs (if you set one up yourself in Claude's scheduled tasks) need your computer awake, with Claude Desktop and Chrome open.
+Liking, commenting, following and messaging automatically can go against Instagram's rules, and Instagram can limit an account that behaves unusually. That risk is real. The kit keeps it low: daily limits that start small and grow slowly, daytime-only work with human breaks, a rest day each week, no links to strangers, and a full stop with a 48-hour rest on any Instagram warning. Nothing removes the risk completely. Scheduled runs (if you set one up yourself in Claude's scheduled tasks) need your computer awake, with Claude Desktop and Chrome open.
 
 ---
 

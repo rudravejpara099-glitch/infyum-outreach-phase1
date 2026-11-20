@@ -62,7 +62,7 @@ Use the line for today's effective day. These are the kit's own careful numbers;
 ## Rule D: a human rhythm
 
 - **Daytime only:** between 9 am and 9 pm in the account's time zone. At night, do nothing on Instagram.
-- **Short sessions:** at most **5 prospects per session** (or about 40 minutes), then end the session. Tell the user: "Done for now. Start me again in 2 hours or more." At most **3 sessions a day.** Leftover work simply waits for the next session or the next day.
+- **No session cap, no waiting between sessions.** Keep working through the day until today's daily limits (Rule B) are used up, daytime ends, or a warning appears. Do not stop just because time has passed. Take your own short human breaks (several minutes now and then, a different length each time), and spread the work across the daytime hours instead of rushing it.
 - **Rest one day a week:** no Instagram actions on that day (follow-ups wait too). Use the day the user names, or Sunday.
 - **Space things out.** Real pauses between actions (seconds to minutes, never the same length twice). At least **5 minutes** between the first DMs of two different people, a different length every time. The 3 to 4 parts of one person's DM go a few seconds apart (`references/first-dm.md`); never send DMs to two people back to back.
 - **Look like a person using Instagram,** not a machine going down a list: now and then scroll the home feed for a moment or watch a story from an account already followed, without liking or commenting.
