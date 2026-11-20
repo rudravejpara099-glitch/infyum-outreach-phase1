@@ -21,6 +21,8 @@ Do not describe INFYUM with that wording in the DM. Coaches and consultants thin
 ## Who we target
 We only message US-based coaches and consultants.
 
+**The user's industry replaces "coaches and consultants".** The user picks ONE wide industry in the interview (answer 2, for example credit repair). Everywhere this document says "coach", "consultant" or "coach or consultant business", read it as "a business in that industry that sells services or programs".
+
 **Location.** Assume the prospect is in the US unless the profile clearly shows otherwise (the bio, post location tags, currency, or a stated move abroad). If the location is unclear, treat the prospect as US-based, write the DM, and add "location unconfirmed, assumed US" under Flags.
 
 **When to skip.** Write no DM and reply with "SKIP" and a one-line reason when:

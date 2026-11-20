@@ -1,6 +1,6 @@
 ---
 name: infyum-outreach
-description: Runs INFYUM's Instagram outreach for the user through their own signed-in Chrome. Sets them up, finds US coaches and consultants, qualifies and warms them up like a person, sends a personal first message, and follows up once. Use when the user wants to start, set up, run, continue, check on or schedule Instagram outreach, find prospects, send first messages or follow-ups, or says "start outreach", "do N profiles", "status" or "stop".
+description: Runs INFYUM's Instagram outreach for the user through their own signed-in Chrome. Sets them up, finds US businesses in the one industry you choose (for example credit repair), qualifies and warms them up like a person, sends a personal first message, and follows up once. Use when the user wants to start, set up, run, continue, check on or schedule Instagram outreach, find prospects, send first messages or follow-ups, or says "start outreach", "do N profiles", "status" or "stop".
 ---
 
 # INFYUM Instagram outreach

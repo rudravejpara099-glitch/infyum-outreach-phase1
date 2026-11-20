@@ -50,7 +50,7 @@ You never approve a comment or a message. Claude writes and sends them itself.
 
 ## The rules in short
 
-- **Who it picks:** US-based coaches and consultants with a public account, 2,000 to 70,000 followers (your range), posting recently, selling something online, and with a gap Claude can really see. Never agencies, big brands, competitors, private accounts or anyone connected to the accounts you list.
+- **Who it picks:** US-based businesses in the one industry you choose (kept wide, for example credit repair) with a public account, 2,000 to 70,000 followers (your range), posting recently, selling something online, and with a gap Claude can really see. Never agencies, big brands, competitors, private accounts or anyone connected to the accounts you list.
 - **35 first messages per Instagram account per day,** shared by everyone using that account. One person at a time per account.
 - **Warm-up:** like a person browsing, not a script: a follow, then a few random likes and comments, sometimes a story reaction. Comments are written for that person and that post, never generic.
 - **First message:** written fresh for every person after reading their profile and bio link. one short DM (about 50 to 90 words) with one specific detail from their account, with your name and company worked into the message, offering softly one of three free things: a 2-minute Loom audit, an explanation of where funnel automations could fit into their funnel, or a free funnel concept.

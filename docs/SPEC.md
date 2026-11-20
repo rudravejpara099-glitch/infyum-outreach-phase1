@@ -36,12 +36,12 @@ Google Sheets, then Instagram, then Apify.
 ## 3. Find
 - Search phrases are made by Claude from the user's answers (questions 2 and 4), 5 to 8 of them, written to the Activity Log.
 - As many results per phrase as the Apify credit allows (check remaining credit before each search). Refill whenever fewer than 5 prospects are waiting, until the account reaches 35.
-- Cheap filter before Chrome: drop private accounts, followers outside the range, bio with "agency" or "official page", bio with no match to the niche words. Unknown follower count is kept.
+- Cheap filter before Chrome: drop private accounts, followers outside the range, bio with "agency" or "official page", bio with no match to the industry words. Unknown follower count is kept.
 - Every dropped account is saved as Skipped with a reason, so it is never searched or paid for again.
 - Duplicate check, for every candidate: look the username up in All Leads (any person, any stage). If present, skip. If not, add own row (stage Found, claimed_at), wait a few seconds, look up again; if two rows exist, the earlier claim stays and the later one is set to Skipped/duplicate. Look up once more before the first DM.
 
 ## 4. Qualify (in Chrome, stops at the first failure, reason written to the Sheet)
-1 public, 2 not "Restricted profile", 3 followers in range (real page), 4 active (2+ posts in 14 days; strict: skip if dates not visible), 5 some engagement (strict: skip if counts not visible), 6 niche match, 7 market is the US (via "About this account"; if it fails to load, judge from bio, language and posts and note `country: judged`), 8 not an agency/competitor/big brand/celebrity, 9 can pay and has the user's problem (Claude's judgment: fit High/Medium/Low; Low is skipped), 10 Message button present and DMs not closed, 11 none of the user's listed usernames in their followers or following (last, survivors only).
+1 public, 2 not "Restricted profile", 3 followers in range (real page), 4 active (2+ posts in 14 days; strict: skip if dates not visible), 5 some engagement (strict: skip if counts not visible), 6 industry match (one wide industry), 7 market is the US (via "About this account"; if it fails to load, judge from bio, language and posts and note `country: judged`), 8 not an agency/competitor/big brand/celebrity, 9 can pay and has the user's problem (Claude's judgment: fit High/Medium/Low; Low is skipped), 10 Message button present and DMs not closed, 11 none of the user's listed usernames in their followers or following (last, survivors only).
 - Skip also: business clearly winding down; no offer INFYUM could improve.
 - Work order: the user's best follower band first if they named one, otherwise oldest found first; High fit before Medium.
 - Unsure means skip.

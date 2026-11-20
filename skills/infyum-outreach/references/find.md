@@ -2,7 +2,7 @@
 
 ## Search phrases come from the user's own answers
 
-From interview answers 2 (who to reach) and 4 (the problem), write **5 to 8 search phrases** the way people describe themselves in an Instagram bio or search ("fitness business coach", "online coach for women entrepreneurs", "credit repair consultant"). Do not use one fixed list for everyone. Write one `note` line to the Activity Log with the phrases (`detail` starts `search phrases:`).
+The user picks **one wide industry** (answer 2). From it and answer 4 (the problem), write **5 to 8 search phrases** that cover the whole industry, the way different businesses in it describe themselves in an Instagram bio or search. For credit repair: "credit repair", "credit repair specialist", "credit coach", "credit consultant", "credit restoration", "credit repair expert", "fix your credit", "credit builder". Stay inside the one industry and do not narrow to a sub-type. Do not use one fixed list for everyone. Write one `note` line to the Activity Log with the phrases (`detail` starts `search phrases:`).
 
 ## With Apify (preferred)
 
@@ -16,7 +16,7 @@ When Apify is not connected, fails, or is out of credit, tell the user once in o
 
 ## How many, and when to find more
 
-The day's number is the user's answer 9, and never more than the account's `dms_left`. **Search again whenever fewer than 5 candidates are waiting** (stage Found or Qualified and not yet worked) until enough first messages are sent. Never relax a rule to reach the number: when you run short of good candidates, find more. If **two full rounds** of your search phrases still leave you short, stop and report instead: how many you checked, how many passed, the skip reasons by count, and a suggestion to widen the range or the niche (that is the user's call).
+The day's number is the user's answer 9, and never more than the account's `dms_left`. **Search again whenever fewer than 5 candidates are waiting** (stage Found or Qualified and not yet worked) until enough first messages are sent. Never relax a rule to reach the number: when you run short of good candidates, find more. If **two full rounds** of your search phrases still leave you short, stop and report instead: how many you checked, how many passed, the skip reasons by count, and a suggestion to widen the follower range or add more phrases for the same industry (that is the user's call).
 
 ## The cheap filter, before Chrome
 
@@ -24,7 +24,7 @@ Apify returns enough to drop obvious misses without opening Chrome. Drop, with a
 1. the account is private;
 2. the follower count is known and outside the user's range;
 3. the bio says "agency" or "official page", or names a competitor;
-4. a bio exists and shares nothing with the niche words from interview answers 2 and 4.
+4. a bio exists and shares nothing with the industry words from interview answers 2 and 4.
 
 An **unknown follower count is kept** and checked on the real profile. Web results have no bio: skip rules 2 to 4 for them.
 
