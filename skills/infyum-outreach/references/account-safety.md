@@ -24,9 +24,16 @@ Say this honestly if the user asks: Instagram can restrict or disable any accoun
 
 ## Rule B: today's limits grow slowly
 
-Your `Team` row's `day_number` is how many days the kit has used this account (day 1 is `start_date`). Use the line for today. These are the kit's own careful numbers; Instagram does not publish its limits.
+Your `Team` row's `day_number` is how many days the kit has used this account (day 1 is `start_date`).
 
-| Kit day | First messages | Follows | Likes | Comments | Follow-ups |
+**Effective day (this decides the line you use).**
+- **Established account:** the user says in interview answer 8 that the account is established and they use it by hand every day (Rule A is met: 14+ days old, real daily use). Effective day = `day_number` + 14, so it starts on the 15 to 30 line, not on 3 messages a day.
+- **Spare, new or rarely used account:** effective day = `day_number`.
+- Everywhere below that says "kit day", use the effective day. After a warning, Rule C sets the line instead.
+
+Use the line for today's effective day. These are the kit's own careful numbers; Instagram does not publish its limits.
+
+| Effective day | First messages | Follows | Likes | Comments | Follow-ups |
 |---|---|---|---|---|---|
 | 1 to 3 | 3 | 5 | 15 | 0 | 3 |
 | 4 to 7 | 5 | 8 | 25 | 2 | 5 |
@@ -64,12 +71,12 @@ Your `Team` row's `day_number` is how many days the kit has used this account (d
 
 - **Per prospect:** at most 1 follow, 1 to 3 likes, at most 1 comment, and a story reaction only sometimes.
 - **Follow only about half** of the prospects. Liking a couple of posts is enough warm-up.
-- **Kit days 1 to 7:** no comments and no story reactions. Likes and follows only.
+- **Effective days 1 to 7:** no comments and no story reactions. Likes and follows only.
 - **Open profiles directly by their address** (`instagram.com/<username>/`). Do not use Instagram's own search box to find people, and do not scroll through hashtags or Explore to find prospects.
 
 ## Rule F: the risky checks
 
-- **The check list (qualify check 11):** before kit day 15, never open Followers or Following lists. Check only the "Followed by" line and write `check list not verified` in `flags`. From day 15, open lists for at most 10 prospects a day.
+- **The check list (qualify check 11):** before effective day 15, never open Followers or Following lists. Check only the "Followed by" line and write `check list not verified` in `flags`. From effective day 15, open lists for at most 10 prospects a day.
 - **"About this account" (qualify check 7):** open it once per prospect, never again. If it fails, judge from the profile (already in `references/qualify.md`).
 
 ## Rule H: fewer reports
@@ -86,4 +93,4 @@ Ignored, declined and reported message requests count against the account, so me
 
 ## Report it
 
-In the end-of-session report, add one line: "Account safety: kit day N, today's limits X messages / Y follows / Z likes / W comments, used A / B / C / D." Add any warning and when work can carry on.
+In the end-of-session report, add one line: "Account safety: effective day N, today's limits X messages / Y follows / Z likes / W comments, used A / B / C / D." Add any warning and when work can carry on.

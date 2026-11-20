@@ -35,7 +35,7 @@ Interview answer 7 is a list of exact usernames. Skip the prospect if **any** of
 - their **Followers** list: open it and type the username in its search box;
 - their **Following** list: open it and type the username in its search box.
 
-**Before kit day 15** (`references/account-safety.md`, Rule F) never open the lists: check only the "Followed by" line and write `check list not verified` in `flags`. From day 15, open lists for at most 10 prospects a day.
+**Before effective day 15** (`references/account-safety.md`, Rule F) never open the lists: check only the "Followed by" line and write `check list not verified` in `flags`. From day 15, open lists for at most 10 prospects a day.
 
 Match **exact usernames only**. Close each list afterwards **without following or clicking anyone in it.** Do this check **last**, only for prospects that already passed everything else: opening lists is the part Instagram is most likely to notice.
 
