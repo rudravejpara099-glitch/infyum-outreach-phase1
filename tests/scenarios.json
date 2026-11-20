@@ -7,6 +7,7 @@
   { "id": "comments-not-an-analysis", "file": "skills/infyum-outreach/references/warmup.md", "mustContain": "Not a review, not an analysis" },
   { "id": "latest-kit-each-session", "file": "skills/infyum-outreach/SKILL.md", "mustContain": "Use the latest kit" },
   { "id": "reread-first-dm-each-time", "file": "skills/infyum-outreach/references/first-dm.md", "mustContain": "Before every first DM, read this whole file" },
+  { "id": "real-clock", "file": "skills/infyum-outreach/SKILL.md", "mustContain": "Never estimate it or carry it over" },
   { "id": "never-passwords", "file": "skills/infyum-outreach/references/rules.md", "mustContain": "Never ask for, type or store passwords" },
   { "id": "log-before-send", "file": "skills/infyum-outreach/references/rules.md", "mustContain": "Log before you send" },
   { "id": "warning-stops-account", "file": "skills/infyum-outreach/references/rules.md", "mustContain": "An Instagram warning stops the account" },
