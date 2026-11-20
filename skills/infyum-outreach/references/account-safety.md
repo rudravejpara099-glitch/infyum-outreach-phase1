@@ -48,8 +48,9 @@ Your `Team` row's `day_number` is how many days the kit has used this account (d
 2. If the screen has a plain OK or Dismiss button, press it. Anything that asks for a code, a phone number, a password or "this was me" is the user's to answer.
 3. Log one `warning` line with the exact text, then one `pause` line. Tell the user in one line what Instagram showed and when you can carry on.
 4. **Rest:** no actions on this account for **48 hours** from the warning (finding prospects with Apify or web search is fine). After the rest, use the **kit day 1 to 3** line for 3 days, then climb back up the table one line every 3 days until you reach the line for the real `day_number`.
-5. **Two warnings within 7 days:** no actions for **7 days,** and tell the user. **A suspension or a disabled account:** stop, tell the user, and do nothing more with it. Only the user can appeal, through Instagram's own form. Never suggest making a new account to replace it.
-6. **At every session start,** read the Activity Log for `warning` lines on this account from the last 7 days and apply these rests before doing anything.
+5. **Two warnings within 7 days:** no actions for **7 days,** and tell the user.
+6. **A suspension or a disabled account** (any account on this computer, outreach or not): stop at once and do nothing more with it. Log a `warning` line and a `pause` line. Then **no Instagram actions with any account on this computer or network for 7 days** (finding prospects with Apify or web search is fine), because Instagram links accounts that share a computer or network. Tell the user in plain words: "Instagram suspended @name. Only you can appeal, through Instagram's own form. Please do not make a new account to replace it: a new account made during a suspension, on the same computer or network, is usually suspended too, and can pull other accounts down with it. I'll pause all Instagram work here for 7 days." Never suggest, create or help set up a replacement account.
+7. **At every session start,** read the Activity Log for `warning` lines from the last 7 days (on this account, and any suspension on any account on this computer) and apply these rests before doing anything.
 
 ## Rule D: a human rhythm
 
@@ -70,6 +71,13 @@ Your `Team` row's `day_number` is how many days the kit has used this account (d
 
 - **The check list (qualify check 11):** before kit day 15, never open Followers or Following lists. Check only the "Followed by" line and write `check list not verified` in `flags`. From day 15, open lists for at most 10 prospects a day.
 - **"About this account" (qualify check 7):** open it once per prospect, never again. If it fails, judge from the profile (already in `references/qualify.md`).
+
+## Rule H: fewer reports
+
+Ignored, declined and reported message requests count against the account, so message fewer, better-fitting people.
+- **Never more than 20 first messages from one account in a day,** whatever the kit day or the 35 in the Sheet. The table above already stops at 20; this is a hard ceiling on top of it.
+- **First messages only to High fit, or Medium fit with a clear sign of the problem** from interview answer 4 that you can name in the DM. A Medium fit without that sign is skipped (`skip_reason` = cannot pay).
+- **The follow-up goes only to High fit.** A Medium-fit prospect who did not reply gets no follow-up: write a `note` line saying so.
 
 ## Rule G: messages
 

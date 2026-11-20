@@ -7,6 +7,8 @@
   { "id": "warning-stops-account", "file": "skills/infyum-outreach/references/rules.md", "mustContain": "An Instagram warning stops the account" },
   { "id": "rest-after-warning", "file": "skills/infyum-outreach/references/account-safety.md", "mustContain": "no actions on this account for **48 hours**" },
   { "id": "new-account-not-used", "file": "skills/infyum-outreach/references/account-safety.md", "mustContain": "at least 14 days old" },
+  { "id": "suspension-pauses-computer", "file": "skills/infyum-outreach/references/account-safety.md", "mustContain": "no Instagram actions with any account on this computer or network for 7 days" },
+  { "id": "fewer-reports-cap-20", "file": "skills/infyum-outreach/references/account-safety.md", "mustContain": "Never more than 20 first messages from one account in a day" },
   { "id": "slow-ramp", "file": "skills/infyum-outreach/references/account-safety.md", "mustContain": "today's limits grow slowly" },
   { "id": "no-links-to-strangers", "file": "skills/infyum-outreach/references/account-safety.md", "mustContain": "No links in first messages or follow-ups" },
   { "id": "cap-35", "file": "skills/infyum-outreach/references/rules.md", "mustContain": "35 first messages per Instagram account per day" },

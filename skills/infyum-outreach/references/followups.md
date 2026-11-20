@@ -10,6 +10,7 @@ A lead is due when all of these are true:
 - `stage` is DM sent and `account` is the Instagram account you are signed in as (a follow-up must come from the account that sent the first message);
 - `dm_sent_at` is **3 or more days ago** and `followup1_at` is empty;
 - `replied` is **empty** (a human fills it; if it has anything in it, never follow up);
+- `fit` is **High** (`references/account-safety.md`, Rule H: Medium gets no follow-up);
 - `notes` has a `followup draft:` line (the first DM's follow-up is included only when it adds something new; no draft, no follow-up) and does not contain `do not contact`.
 
 **You do not open the chat to look for replies, and you never answer a reply.** The `replied` column is the only signal. After the follow-up, never contact them again.
